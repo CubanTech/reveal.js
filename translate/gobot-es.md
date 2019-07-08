@@ -1,4 +1,4 @@
-## Taller de gobots
+# Taller de gobots
 
 #### Estas diapositivas: [slides.cuban.tech/gobot.html](http://slides.cuban.tech/gobot.html)
 
@@ -14,7 +14,7 @@ Contraseña: meet-ups
 
 ### Si aún no lo has hecho, instala Go
 
-##### Subtítulos por aRGENTeaM https://golang.com/
+- [Descargar Go](https://golang.com/)
 
 ##### Descargar Go desde LAN] (ftp://qnap01.local/Public/soft/go)
 
