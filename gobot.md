@@ -227,7 +227,7 @@ If not, press &darr; for instructions on flashing your Arduino with Standard Fir
 
 ## LEDs
 
-#### <span class="red-led">LIGHT</span> <span class="green-led">EMITTING</span> <span class="blue-led">DIODES</span>
+<span class="red-led">LIGHT</span> <span class="green-led">EMITTING</span> <span class="blue-led">DIODES</span>
 
 ![](img/leds.jpg)
 
