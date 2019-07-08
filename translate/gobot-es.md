@@ -1,4 +1,4 @@
-## Taller de gobots
+# Taller de gobots
 
 #### Estas diapositivas: [slides.cuban.tech/gobot.html](http://slides.cuban.tech/gobot.html)
 
