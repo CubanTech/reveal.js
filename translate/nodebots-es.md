@@ -1,5 +1,6 @@
-ml](http://slides.cuban.tech/nodebots.html)
+## Nodebots con CubanTech (<del>NYJS</del> ;)
 
+#### These slides: [slides.cuban.tech/nodebots.html](http://slides.cuban.tech/nodebots.html)
 ----------------
 
 ### Información Wifi
@@ -10,37 +11,38 @@ Contraseña: meet-ups
 
 ----------------
 
-### Si aún no lo has hecho, instala Nodo
+### Si aún no lo has hecho, instala Node
 
-##### Subtítulos por aRGENTeaM https://nodejs.org/en/download/
+##### [Descarga Node](https://nodejs.org/en/download/)
 
-######[Nodo de Descarga desde LAN](ftp://qnap01.local/Public/soft/nodejs)
+##### [Descarga Node de LAN](ftp://qnap01.local/Public/soft/nodejs)
+
 
 ---
 
-- Este taller se basa en gran medida en un taller de[NY-Javascript](http://www.meetup.com/NY-Javascript) (ver[bit.ly/nyjs-nodebots](http://bit.ly/nyjs-nodebots))
-- ... que se basa en gran medida en un taller de[Francis Gulotta](https://twitter.com/reconbot) y[Rick Waldron](https://twitter.com/rwaldron)
-- Puede encontrar las diapositivas para ese taller en[gul.ly/3tjj](http://gul.ly/3tjj)
-- Puedes inscribirte en uno de sus talleres en la página[Nodebots NYC Meetup page](http://www.meetup.com/nodebots/)
+- Este taller se basa en gran medida en un taller de [NY-Javascript](http://www.meetup.com/NY-Javascript) (ver [bit.ly/nyjs-nodebots](http://bit.ly/nyjs-nodebots))
+- ... que se basa en gran medida en un taller de [Francis Gulotta](https://twitter.com/reconbot) y [Rick Waldron](https://twitter.com/rwaldron)
+- Puede encontrar las diapositivas para ese taller en [gul.ly/3tjj](http://gul.ly/3tjj)
+- Puedes inscribirte en uno de sus talleres en la página [Nodebots NYC Meetup page](http://www.meetup.com/nodebots/)
 
 ---
 
 ## Nuestras pautas de la comunidad
 
-[Sé excelente el uno con el otro] (https://github.com/nodeschool/havana/blob/master/Code_of_Conduct.md)
+[Sé=er excelente el uno con el otro](https://github.com/nodeschool/havana/blob/master/Code_of_Conduct.md)
 
 ---
 
 Próximos Eventos CubanTech
 
-- [CubanTech meetups](http://meetup.cuban.tech)
-- [Encuentros en Cuba](http://docker.cuban.tech)
-- [Blockstack Cuba meetups](http://blockstack.cuban.tech)
+- [Encuentros CubanTech](http://meetup.cuban.tech)
+- [Encuentros Docker en Cuba](http://docker.cuban.tech)
+- [Encuentros Blockstack Cuba](http://blockstack.cuban.tech)
 - [SciPyLA 2019](http://conf.scipyla.org)
 
 ---
 
-# Enorme gracias a nuestro anfitrión
+# Muchisimas gracias a nuestro anfitrión
 
 ---
 
@@ -58,19 +60,19 @@ Próximos Eventos CubanTech
 
 ---
 
-## Our hardware
+## NUestro hardware
 
 [![](img/hardware-kit-closed.jpg)](http://www.seeedstudio.com/depot/ARDX-The-starter-kit-for-Arduino-p-1153.html)
 
 ---
 
-## Our hardware
+## NUestro hardware
 
 [![](img/hardware-kit-open.jpg)](http://www.seeedstudio.com/depot/ARDX-The-starter-kit-for-Arduino-p-1153.html)
 
 ---
 
-## A los kits les puede faltar equipo
+## A los Kits les puede faltar equipo
 
 ------------
 
