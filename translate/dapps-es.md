@@ -125,7 +125,7 @@ Contraseña: meet-ups
 
 ##### Meta-datos importantes (excepto[transacciones en la base de monedas](https://bitcoin.org/en/glossary/coinbase-transaction))
 
-<pequeño>![](img/bitcoin-en-tx-overview.svg) </pequeño>
+<small>![](img/bitcoin-en-tx-overview.svg) </small>
 
 - ID de transacción (global)
 - Número de versión (evolución del protocolo)
@@ -140,7 +140,7 @@ Contraseña: meet-ups
 
 ##### Entradas y salidas
 
-<pequeño>![](img/bitcoin-en-tx-overview.svg) </pequeño>
+<small>![](img/bitcoin-en-tx-overview.svg) </small>
 
 - Resultado(s) : Índice de arreglo implícito
   * Cantidad (satoshis)
@@ -156,7 +156,7 @@ Contraseña: meet-ups
 
 ## Bitcoin - Transacción de muestra
 
-<pequeño> blocktrail.com </pequeño>
+<small> blocktrail.com </small>
 
 ![](img/bitcoin.tx.c60e4dc5e69c19ff53a45954d8a8996fd9aac6fda317fd7238dec6a482c718cf.png)
 
@@ -175,12 +175,12 @@ Contraseña: meet-ups
 
 ## Bitcoin - Envío de transacciones
 
-##### Configuración de Pay-To-Script-Hash (P2SH)
+##### Configuración de pago a hash de clave publica (P2SH)
 
 ![](img/bitcoin-en-crear-p2sh-output.svg)
 
 - Redimir el hash del script en lugar del hash de la clave pública
-  * Soporta[PubKey scripts opcodes](https://bitcoin.org/eb/developer-reference#opcodes)
+  * Soporta [PubKey scripts opcodes](https://bitcoin.org/eb/developer-reference#opcodes)
 
 --
 
@@ -227,7 +227,7 @@ Contraseña: meet-ups
 - El remitente prepara el UTXO para el destinatario (como antes)
 - Transacción de emisiones del remitente (red P2P)
 - Los mineros lo añaden a un bloque
-  *Validación del guión* ( A-ha!)
+  - Validación del guión ( A-ha!)
 - Cartera : Actualizar saldo
 
 --
@@ -268,12 +268,12 @@ semilla.bitcoin.sipa.be.   60 EN UN 203.0.113.183
 
 ## Red P2P
 
-##### Conectándonos con nuestros compañeros
+##### Conectando con sus pares
 
-- Enviar[`version` message](https://bitcoin.org/en/developer-reference#version)
+- Enviar [mensaje `version`](https://bitcoin.org/en/developer-reference#version)
   * número de versión local, bloque y hora actual
-- El compañero responde con su propio mensaje de "versión
-- Enviar `getaddr` y recibir `addr` de nuevos compañeros (descubrimiento)
+- El par responde con su propio mensaje de "versión
+- Enviar `getaddr` y recibir `addr` de nuevos pares (descubrimiento)
 
 --
 
@@ -281,27 +281,27 @@ semilla.bitcoin.sipa.be.   60 EN UN 203.0.113.183
 
 ##### Transacciones de radiodifusión
 
-- Envíe[`mensaje de invitación](https://bitcoin.org/en/developer-reference#inv) a un compañero.
-- Esperar el mensaje `getdata
+- Envíe [mensaje de invitación](https://bitcoin.org/en/developer-reference#inv) a un par.
+- Esperar el mensaje `getdata`
 - Enviar datos de la transacción en un mensaje `tx`.
 - Los pares reenvían transacciones a otros pares
-- Los nodos completos realizan un seguimiento de las transacciones no confirmadas en[memory pool](https://bitcoin.org/en/developer-guide#memory-pool)
+- Los nodos completos realizan un seguimiento de las transacciones no confirmadas en [memory pool](https://bitcoin.org/en/developer-guide#memory-pool)
 
 > ...continuará...
 
 ---
 
-## El enfoque de la máquina estatal
+## El enfoque de la máquina de estado
 
 - Implantar réplicas del software
 - Recibir las solicitudes de los clientes (es decir, las entradas)
-- style="color: yellow">Ordenar las entradas </span>
+- <span style="color: yellow">Ordenar las entradas </span>
 - Ejecute la transición de SM una y otra vez
 - Supervisar las réplicas en busca de diferencias de estado o de salida.
 
 ---
 
-## El enfoque de la máquina estatal
+## El enfoque de la máquina de estado
 
 ##### Pedido de entradas
 
@@ -319,19 +319,19 @@ Ordenamiento causal : Cadena de propiedad
 
 ---
 
-## El enfoque de la máquina estatal
+## El enfoque de la máquina de Estado
 
 - Implantar réplicas del software 
 - Recibir las solicitudes de los clientes (es decir, las entradas)
 - Pedir las entradas
-- Ejecutar la transición de SM una y otra vez.
+- <span style="color: yellow">Ejecutar la transición de SM una y otra vez.</span>
 - Supervisar las réplicas en busca de diferencias de estado o de salida.
 
 ---
 
-## El enfoque de la máquina estatal
+## El enfoque de la Máquina de Estado
 
-##### Ejecutar la máquina estatal
+##### Ejecutar la Máquina de Estado
 
 ![](img/rsm.transition.png)
 
@@ -350,11 +350,11 @@ Ordenamiento causal : Cadena de propiedad
 ##### Metas de diseño
 
 - Libro mayor público
-  * Transacciones ordenadas y con sello de tiempo
-- Almacenamiento distribuido sobre Bitcoin[nodos completos] (https://bitcoin.org/en/glossary/node)
+  - Transacciones ordenadas y con sello de tiempo
+- Almacenamiento distribuido sobre Bitcoin [nodos completos](https://bitcoin.org/en/glossary/node)
 - Proteger contra
-  *[double spending](https://bitcoin.org/en/glossary/double-spend)
-  * modificación de registros de transacciones anteriores
+  - [double spending](https://bitcoin.org/en/glossary/double-spend)
+  - modificación de registros de transacciones anteriores
 
 --
 
@@ -368,18 +368,18 @@ Ordenamiento causal : Cadena de propiedad
 
 ## Cabecera del bloque Bitcoin
 
-- **Versión*** 4 bytes
-- **Características de la cabecera del bloque anterior***: 32 octetos
-- **Merkle root hash**: 32 octetos
-- **Time*** 4 bytes
-- **nBits*** 4 bytes
-- No una sola vez: 4 bytes
+- **Versión**: 4 bytes
+- **Características de la cabecera del bloque anterior**: 32 bytes
+- **Hash de raiz Merkle**: 32 bytes
+- **Tiempo**: 4 bytes
+- **nBits**: 4 bytes
+- **nonce**: 4 bytes
 
 --
 
 ## Bitcoin Bloque 493387
 
-<pequeño> blocktrail.com </pequeño>
+<small> blocktrail.com </small>
 
 [![](img/bitcoin.block.493387.png)](https://www.blocktrail.com/BTC/block/000000000000000000ad396808fdc05052655d8a80aee7ffc538b71828ea03d3)
 
@@ -400,11 +400,11 @@ La transacción de Coinbase es lo primero
   * Tomar decisiones sobre cambios en un DApp
 - Modificar bloques pasados es más difícil que añadir nuevos bloques.
 - Ejemplos comunes
-  ** **Prueba de trabajo** (PoW)
-  * Prueba de participación (PoS)
-  ** **Prueba de espacio** (PoSpace)
-  * Prueba de colaboración** (PoC)
-  * Prueba de réplica** (PoR)
+  * **Prueba de trabajo** (PoW)
+  * **Prueba de participación** (PoS)
+  * **Prueba de espacio** (PoSpace)
+  * **Prueba de colaboración** (PoC)
+  * **Prueba de réplica** (PoR)
 - Se puede utilizar en paralelo
   * p.ej.[PeerCoin](http://peercoin.net) se basa en PoW + PoS
 
@@ -412,30 +412,30 @@ La transacción de Coinbase es lo primero
 
 ## Prueba de trabajo
 
-- *Driver* . : Cantidad de trabajo computacional (CPU, GPU, NPU,...) que contribuyó al funcionamiento del DApp.
+- *Conductor* . : Cantidad de trabajo computacional (CPU, GPU, NPU,...) que contribuyó al funcionamiento del DApp.
 - Recursos intensos (energía, refrigeración,...)
-- El mecanismo para establecer el consenso a través del prisionero de guerra se denomina comúnmente minería.
+- El mecanismo para establecer el consenso a través del PoW se denomina comúnmente minería.
 
-> Bitcoin utiliza este enfoque para su funcionamiento diario. </small>
+> <small> *Bitcoin* utiliza este enfoque para su funcionamiento diario. </small>
 
 --
 
 ## Proof of stake
 
-- Conductor* : nuevas monedas según el número de monedas (estacas) que poseas.
+- *Conductor* : nuevas monedas según el número de monedas (stake) que poseas.
 - Puede ser abusado por aquellos que tienen suficientes monedas.
 - Normalmente se combina con otras pruebas
 
-> Small> *OmniLayer* se basa en el mecanismo POS. </small>
+> <small> *OmniLayer* se basa en el mecanismo POS. </small>
 
 --
 
 ## Prueba de capacidad
 
-- Conductor* : asignación de cantidades no triviales de memoria o almacenamiento necesarias para resolver un problema (funciones difíciles de memorizar).
-- Alternativa más ecológica al PdT
+- *Conductor* : asignación de cantidades no triviales de memoria o almacenamiento necesarias para resolver un problema (funciones difíciles de memorizar).
+- Alternativa más ecológica al PoW
 
-> Se utiliza PoStorage en PermaCoin, SpaceMint,[BurstCoin](https://en.wikipedia.org/wiki/Burstcoin) </small>.
+> <small> Se utiliza PoStorage en PermaCoin, SpaceMint,[BurstCoin](https://en.wikipedia.org/wiki/Burstcoin) </small>.
 
 --
 
@@ -446,21 +446,21 @@ La transacción de Coinbase es lo primero
   * Aprobar CVN mediante la firma digital de un dato que contenga la identificación del ganador.
   * Con las firmas requeridas, reúna TX y cree un nuevo bloque.
 - Sin recompensa (dinero nuevo) por la creación del bloque (cuota pequeña)
-- El consumo de energía es bajo (CVNs en una frambuesa3)
+- El consumo de energía es bajo (CVNs en una Raspberry3)
 
-> FairCoin (horquilla de Bitcoin 0.12) implementa PoC desde el 18 de julio de 2017</small>.
+> <small>FairCoin (fork de Bitcoin 0.12) implementa PoC desde el 18 de julio de 2017</small>.
 
 ---
 
-## Árbol de Merkle - Transacciones de Prunning
+## Árbol de Merkle - Transacciones de Recoleccion
 
 ![](img/bitcoin-en-merkle-prune.png)
 
-**Modos de funcionamiento*** [SPV clients](https://bitcoin.org/en/glossary/simplified-payment-verification) vs[nodo completo](https://bitcoin.org/en/glossary/node)
+**Modos de funcionamiento**: [SPV clients](https://bitcoin.org/en/glossary/simplified-payment-verification) vs[nodo completo](https://bitcoin.org/en/glossary/node)
 
 ---
 
-## P2P network (contd.)
+## Red P2P (contd.)
 
 ##### Descarga del bloque inicial
 
@@ -512,7 +512,7 @@ La transacción de Coinbase es lo primero
 
 ![](img/slushpool.png)
 
-<Pequeñas> Monedas acuñadas ``+1M BTC` extraídas desde diciembre de 2010. ZCASH` desde el 20 de abril de 2017</small>
+<small> Monedas acuñadas ``+1M BTC` extraídas desde diciembre de 2010. `ZCASH` desde el 20 de abril de 2017</small>
 
 --
 
@@ -538,7 +538,7 @@ La transacción de Coinbase es lo primero
 
 ![](img/bitmain.antminer.s9.png)
 
-<Pequeñas> Monedas acuñadas : `BTC` </small>
+<small> Monedas acuñadas : `BTC` </small>
 
 --
 
@@ -550,13 +550,13 @@ La transacción de Coinbase es lo primero
 
 --
 
-## Piscina de BTCC
+## Pool de BTCC
 
-<pequeño>[pool.btcc.com](https://pool.btcc.com/) </pequeño>
+<small>[pool.btcc.com](https://pool.btcc.com/) </small>
 
 ![](img/btcc.png)
 
-<Pequeñas> Monedas acuñadas : `BTC` </small>
+<small> Monedas acuñadas : `BTC` </small>
 
 ---
 
@@ -564,10 +564,10 @@ La transacción de Coinbase es lo primero
 
 ##### Capacidad instalada - 2017/11/13
 
-<style="width: 500px; display: inline-block; margin-left: auto; magin-right: auto"> ![](img/btc.hashrate.20171113.png) </div>)
+<div style="width: 500px; display: inline-block; margin-left: auto; magin-right: auto"> ![](img/btc.hashrate.20171113.png) </div>)
 
-- Pequeño> 6,4 EHash/s, 80.704.290,84 PFLOPS </pequeño>
-- Pequeñas> 10.000 toneladas métricas de hardware. Suficiente material para construir otra torre Eiffel. </small>
+- <small> 6,4 EHash/s, 80.704.290,84 PFLOPS </small>
+- <small> 10.000 toneladas métricas de hardware. Suficiente material para construir otra torre Eiffel. </small>
 
 --
 
@@ -581,7 +581,7 @@ Circuitos integrados específicos para aplicaciones específicas, también conoc
 
 ## Consumo de energía de Bitcoin PoW
 
-<pequeño>... según[BitcoinEnergyConsumption.com](https://BitcoinEnergyConsumption.com)</small>
+<small>... según[BitcoinEnergyConsumption.com](https://BitcoinEnergyConsumption.com)</small>
 
 ![](img/bitcoin.pow.energy.png)
 
@@ -591,30 +591,30 @@ Circuitos integrados específicos para aplicaciones específicas, también conoc
 
 ## P2P network (contd.)
 
-###### Block broadcasting - Unsolicited Push
+###### Bloqueo de la transmisión - Empuje no solicitado
 
 - Miner incluye el bloque minado en el nuevo[`block` message](https://bitcoin.org/en/developer-reference#block)
 - Miner envía un mensaje a sus pares de nodos completos
 
-> pequeño> desde la versión 0.12.0 </pequeño>
+> <small> desde la versión 0.12.0 </small>
 
 --
 
 ## Red P2P
 
-###### Bloque de transmisión - Relé de Bloque Estándar
+###### Bloque de transmisión - Retransmisión de bloque estándar
 
 - Método estándar
-- Miner envía un mensaje `inv' a todos los pares (SPV y nodo completo)
-  * Incluye inventario referido al bloque
-- BF peer** &rArr; `getdata` solicitando el bloque completo
-  * Mensaje de Miner &rArr; `block
-- **HF peer** &rArr; `getheaders` (pocos encabezados en la mejor cadena de bloques)
-  * Mensaje de Miner &rArr; `encabezados
-- Clientes de SPV** &rArr; `getdata` solicitando un bloque Merkle
-  * Miner &rArr; `merkleblock` seguido de algunos mensajes `tx`.
+- Miner envía un mensaje `inv` a todos los pares (SPV y nodo completo)
+  - Incluye inventario referido al bloque
+- **Par BF** &rArr; `getdata` solicitando el bloque completo
+  - Miner &rArr; Mensaje de `bloque`
+- **Par HF** &rArr; `getheaders` (pocos encabezados en la mejor cadena de bloques)
+  - Miner &rArr; Mensajes de `encabezados`
+- **Clientes de SPV** &rArr; `getdata` solicitando un bloque Merkle
+  - Miner &rArr; `merkleblock` seguido de algunos mensajes `tx`.
 
-> pequeño> desde la versión 0.12.0 </pequeño>
+> <small> desde la versión 0.12.0 </small>
 
 --
 
@@ -622,27 +622,27 @@ Circuitos integrados específicos para aplicaciones específicas, también conoc
 
 ###### Block broadcasting - Anuncio de encabezados directos
 
-- Se usa si los compañeros señalan con "encabezados" durante el apretón de manos.
+- Se usa si los pares señalan con `sendheaders` durante el cacheo.
 - Miner envía un mensaje de `cabecera` desde un nuevo bloque
-- **HF peer** &rArr; Validación parcial y envío de `getdata
+- **HF peer** &rArr; Validación parcial y envío de `getdata`
 - Miner &rArr; `block` o `merkleblock`.
 
-> pequeño> desde la versión 0.12.0 </pequeño>
+> <small> desde la versión 0.12.0 </small>
 
 ---
 
-## El enfoque de la máquina estatal
+## El enfoque de la máquina de estado
 
 - Implantar réplicas del software 
 - Recibir las solicitudes de los clientes (es decir, las entradas)
 - Pedir las entradas
 - Ejecute la transición de SM una y otra vez
-- style="color: amarillo">Réplicas de monitores para diferencias de estado o de salida </span>
+- <span style="color: yellow">Supervisar las réplicas en busca de diferencias de estado o de salida.</span>
 
 ---
 
 
-## El enfoque de la máquina estatal
+## El enfoque de la máquina de estado
 
 ###### Envío de salidas
 
@@ -659,8 +659,8 @@ Circuitos integrados específicos para aplicaciones específicas, también conoc
 - Consenso de Nakamoto
 - [Paxos](https://en.wikipedia.org/wiki/Paxos_%28computer_science%29)
 - Sistemas de quórum
-- [Balsa](https://raft.github.io/)
-- [Obelisco](https://blog.skycoin.net/statement/obelisk-the-skycoin-consensus-algorithm/)
+- [Raft](https://raft.github.io/)
+- [Obelisk](https://blog.skycoin.net/statement/obelisk-the-skycoin-consensus-algorithm/)
 
 ---
 
@@ -671,32 +671,32 @@ Circuitos integrados específicos para aplicaciones específicas, también conoc
 ![](img/bitcoin-en-blockchain-fork.svg)
 
 - Bloques simultáneos extraídos, los nodos eligen al ganador
-- Los compañeros prefieren horquillas con un mayor PoW
-  * longest fork
+- Los compañeros prefieren bifurcaciones con un mayor PoW
+  * Bifurcacion mas larga
   * Altura máxima del bloque: distancia hasta[bloque 0] (https://bitcoin.org/en/glossary/genesis-block)
 
 --
 
 ## Bitcoin - Consenso de Nakamoto
 
-##### Tenedor blando
+##### Bifurcación suave
 
 ![](img/bitcoin-en-soft-fork.svg)
 
 - Cuándo?
   * Muy a menudo, por ejemplo, mineros concurrentes.
   * Las reglas de consenso mejoradas rechazan los bloques que antes eran válidos.
-    + Día de bandera vs.[MASF](https://bitcoin.org/en/glossary/uasf)(https://bitcoin.org/en/glossary/masf) Señalización de la mayoría de las tasas de hash
+    + [UASF](https://bitcoin.org/en/glossary/uasf) flag day vs.[MASF](https://bitcoin.org/en/glossary/uasf) Señalización de la mayoría de las tasas de hash
 
 --
 
 ## Bitcoin - Consenso de Nakamoto
 
-##### Resolución de horquilla blanda
+##### Resolución de Bifurcacion suave
 
-- Eliminar bloques (rancios y huérfanos) en horquillas de bajo POW.
+- Eliminar bloques (rancios y huérfanos) en bifurcaciones de bajo POW.
 - Iterar sobre las transacciones en bloques rancios y huérfanos
-  * Descartarlo si TX pertenece a otro bloque de la horquilla PoW más alta.
+  * Descartarlo si TX pertenece a otro bloque de la bifurcacion PoW más alta.
   * Moverlo de nuevo a TX mempool de lo contrario
     + para ser incluido en un futuro bloque por este minero
     + Transmisión (¿opcional?) a la red P2P
@@ -705,7 +705,7 @@ Circuitos integrados específicos para aplicaciones específicas, también conoc
 
 ## Bitcoin - Consenso de Nakamoto
 
-##### Tenedores duros
+##### Bifurcacion rígidas
 
 ![](img/bitcoin-en-hard-fork.svg)
 
@@ -716,14 +716,14 @@ Circuitos integrados específicos para aplicaciones específicas, también conoc
 
 --
 
-## Bitcoin - Corolarios de horquillas rígidas
+## Bitcoin - Corolarios de bifurcaciones rígidas
 
-- Advertencia en[`getnetworkinfo`] (https://bitcoin.org/en/developer-reference#getnetworkinfo) y ejecute el comando `-alertnotify` si está configurado.
-  * 6 bloques PoW que la mejor cadena válida
+- Advertencia en [`getnetworkinfo`] (https://bitcoin.org/en/developer-reference#getnetworkinfo) y ejecute el comando `-alertnotify` si está configurado.
+  * +6 bloques PoW que la mejor cadena válida
   * Repetición de bloque y TX con números de versión más altos de lo esperado.
-- (https://bitcoin.org/en/glossary/coinbase-transaction) sólo se puede gastar después de 100 cuadras.
-- [Clientes del SPV] (https://bitcoin.org/en/glossary/simplified-payment-verification) pueden ponerse en contacto con diferentes nodos completos
-  * cadenas de descarte con un PdW más débil
+- [Coinbase transaction](https://bitcoin.org/en/glossary/coinbase-transaction) sólo se puede gastar después de 100 bloques.
+- [Clientes del SPV](https://bitcoin.org/en/glossary/simplified-payment-verification) pueden ponerse en contacto con diferentes nodos completos
+  * Descartar cadenas con un PoW más débil
 
 ---
 
@@ -739,9 +739,9 @@ Software para billetera: Sumar UTXO para determinar el balance
 
 - Tolerancia para F fallos independientes aleatorios
   * errores de memoria, fallo del disco duro, ....
-  * Requiere réplicas `2F + 1
+  * Requiere réplicas `2F + 1`
 - La réplica fallida puede detenerse sin generar salidas
-  * Sólo se requieren réplicas `F + 1
+  * Sólo se requieren réplicas `F + 1`
   * .... ningún sistema existente alcanza este límite
 - [Byzantine failures](https://en.wikipedia.org/wiki/Byzantine_fault_tolerance)
   * Fallas aleatorias, espurias &rArr; `2F + 1`
@@ -749,7 +749,7 @@ Software para billetera: Sumar UTXO para determinar el balance
 
 --
 
-## Nodo Bitcoin 
+## Nodo Bitcoin
 
 ##### Requisitos mínimos
 
@@ -758,18 +758,18 @@ Software para billetera: Sumar UTXO para determinar el balance
 - Internet de banda ancha con upload &ge; 400 Kbps (50 KB/s)
   * Conexión no medida, o límites de carga elevados, respetar los límites de carga.
   * 100 GB IBD
-  * 20 gigabytes de descarga al mes
+  * &asymp; 20 gigabytes de descarga al mes
   * Carga de +200 GB al mes
-- 6 horas al día con el nodo completo en funcionamiento
-- 8 conexiones y pares de sincronización activos
+- +6 horas al día con el nodo completo en funcionamiento
+- +8 conexiones y pares de sincronización activos
 
 --
 
 ## Nodo Bitcoin
 
-> La mayoría de la gente ordinaria no debería estar ejecutando un nodo completo.
+> La mayoría de la gente ordinaria **NO** debería estar ejecutando un nodo completo.
 > Necesitamos nodos completos que estén siempre encendidos, que tengan más de 8 conexiones.
-*(si sólo tienes 8, entonces eres parte del problema, no parte de la solución)*,
+> *(si sólo tienes 8, entonces eres parte del problema, no parte de la solución)*,
 > y tener una conexión de banda ancha a Internet.
 
 Gavin Andresen, Jefe Científico de la Fundación Bitcoin, en[Reddit post] (http://www.reddit.com/r/Bitcoin/comments/1scd4z/im_running_a_full_node_and_so_should_you/cdw3lrh?context=3)
@@ -786,7 +786,7 @@ Gavin Andresen, Jefe Científico de la Fundación Bitcoin, en[Reddit post] (http
 - Ninguna entidad que controle la mayoría de sus tokens
 - Datos y registros en una cadena de bloques pública y descentralizada.
 
-> Las aplicaciones **Bitcoin** son de código abierto, ninguna entidad controla Bitcoin y sus registros son abiertos y públicos. </small>
+> <small>Las aplicaciones **Bitcoin** son de código abierto, ninguna entidad controla Bitcoin y sus registros son abiertos y públicos. </small>
 
 ---
 
@@ -794,11 +794,11 @@ Gavin Andresen, Jefe Científico de la Fundación Bitcoin, en[Reddit post] (http
 
 - El propósito de un token es permitir el acceso a la aplicación DApp.
 - Debe generar tokens de acuerdo con un algoritmo estándar
-  * Posiblemente distribuir tokens al inicio de la operación.
+  - Posiblemente distribuir tokens al inicio de la operación.
 - Las fichas deben ser necesarias para el uso de la aplicación.
 - Contribución de los usuarios premiados mediante pago en los tokens de la aplicación.
 
-> Por ejemplo, **Bitcoin** genera bitcoins (tokens) con un algoritmo predeterminado que no se puede modificar. Los Tokens son necesarios para que Bitcoin funcione. Los mineros de Bitcoin son recompensados con bitcoins por sus contribuciones a la seguridad de la red Bitcoin. </small>
+> <small>Por ejemplo, **Bitcoin** genera bitcoins (tokens) con un algoritmo predeterminado que no se puede modificar. Los Tokens son necesarios para que Bitcoin funcione. Los mineros de Bitcoin son recompensados con bitcoins por sus contribuciones a la seguridad de la red Bitcoin. </small>
 
 ---
 
@@ -809,29 +809,29 @@ Gavin Andresen, Jefe Científico de la Fundación Bitcoin, en[Reddit post] (http
   * retroalimentación del mercado
 - Cambios decididos por consenso mayoritario de sus usuarios.
 
-> Por ejemplo, todos los cambios a **Bitcoin** deben ser aprobados por un consenso mayoritario de sus usuarios a través del mecanismo de prueba de trabajo. </small>
+> <small>Por ejemplo, todos los cambios a **Bitcoin** deben ser aprobados por un consenso mayoritario de sus usuarios a través del mecanismo de prueba de trabajo. </small>
 
 ---
 
 ## Clasificación de DApps - Tipo I
 
-##### Según el uso de la cadena de bloqueo
+##### Según el uso de la cadena de bloque
 
 - Tienen su propia cadena de bloques.
 
-*Bitcoin*, *Litecoin* y otras[alt-coins] (https://en.wikipedia.org/wiki/List_of_cryptocurrencies) </small>
+<small>*Bitcoin*, *Litecoin* y otras[alt-coins] (https://en.wikipedia.org/wiki/List_of_cryptocurrencies) </small>
 
 ---
 
 ## Clasificación de DApps - Tipo II
 
-##### Según el uso de la cadena de bloqueo
+##### Según el uso de la cadena de bloque
 
 - Utilice la cadena de bloques de una aplicación descentralizada de tipo I.
 - Son protocolos
   * Fichas que son necesarias para su función.
 
-> Small> *OmniLayer* (anteriormente *Master Protocol*) y *Blockstack* son ejemplos de aplicaciones descentralizadas de tipo II. </small>
+> <small> *OmniLayer* (anteriormente *Master Protocol*) y *Blockstack* son ejemplos de aplicaciones descentralizadas de tipo II. </small>
 
 --
 
@@ -850,12 +850,12 @@ Gavin Andresen, Jefe Científico de la Fundación Bitcoin, en[Reddit post] (http
 
 ## Clasificación de DApps - Tipo III
 
-##### Según el uso de la cadena de bloqueo
+##### Según el uso de la cadena de bloque
 
 - Utilizan el protocolo de una aplicación descentralizada de tipo II.
 - Son protocolos y tienen fichas que son necesarias para su función.
 
-> Las aplicaciones *Omni* (anteriormente *Mastercoin*), y *Blockstack* son ejemplos de aplicaciones descentralizadas de tipo III. </small>
+> <small>Las aplicaciones *Omni* (anteriormente *Mastercoin*), y *Blockstack* son ejemplos de aplicaciones descentralizadas de tipo III. </small>
 
 ---
 
@@ -882,15 +882,15 @@ Gavin Andresen, Jefe Científico de la Fundación Bitcoin, en[Reddit post] (http
 
 - Los tokens se distribuyen a aquellos que contribuyen con más trabajo a la operación de un DApp.
 
-> Tomando como ejemplo *Bitcoin*, las bitcoins se distribuyen mediante un algoritmo predeterminado a los mineros que verifican las transacciones y mantienen la cadena de bloques Bitcoin. </small>
+> <small>Tomando como ejemplo *Bitcoin*, las bitcoins se distribuyen mediante un algoritmo predeterminado a los mineros que verifican las transacciones y mantienen la cadena de bloques Bitcoin. </small>
 
 ---
 
-## Distribuir fichas - Recaudación de fondos
+## Distribuir de tokens - Recaudación de fondos
 
-- Las fichas se distribuyen a quienes financian el desarrollo inicial del DApp.
+- Los tokens se distribuyen a quienes financian el desarrollo inicial del DApp.
 
-> Tomando como ejemplo el *Master Protocol*, Mastercoins se distribuyó inicialmente a aquellos que enviaban bitcoins a una dirección determinada a razón de 100 Mastercoins por bitcoin enviado. Las bitcoins recolectadas se utilizaron para financiar el desarrollo de aplicaciones que promovieron el desarrollo del Protocolo Maestro. </small>
+> <small>Tomando como ejemplo el *Master Protocol*, Mastercoins se distribuyó inicialmente a aquellos que enviaban bitcoins a una dirección determinada a razón de 100 Mastercoins por bitcoin enviado. Las bitcoins recolectadas se utilizaron para financiar el desarrollo de aplicaciones que promovieron el desarrollo del Protocolo Maestro. </small>
 
 ---
 
@@ -898,7 +898,7 @@ Gavin Andresen, Jefe Científico de la Fundación Bitcoin, en[Reddit post] (http
 
 - Los tokens se generan utilizando un mecanismo predefinido y sólo están disponibles para el desarrollo del DApp.
 
-> Además de su mecanismo de recaudación de fondos, el Protocolo Maestro utilizó el mecanismo de colaboración para financiar su desarrollo futuro. Algunas Mastercoins se distribuyen a través de un sistema de recompensas impulsado por la comunidad y basado en el mecanismo PoS.
+> <small>Además de su mecanismo de recaudación de fondos, el Protocolo Maestro utilizó el mecanismo de colaboración para financiar su desarrollo futuro. Algunas Mastercoins se distribuyen a través de un sistema de recompensas impulsado por la comunidad y basado en el mecanismo PoS.</small>
 
 ---
 
@@ -910,9 +910,9 @@ Gavin Andresen, Jefe Científico de la Fundación Bitcoin, en[Reddit post] (http
 
 Internet ya tiene más de 40 años
 
-- Servicios críticos fuera de línea] (https://www.wired.com/2016/10/internet-outage-ddos-dns-dyn/) por ataques como DDoS en servidores DNS
-- Confianza implícita, por ejemplo,[TurkTrust CA emitió certificados de seguridad falsos para Google] (http: //cnet.co/2oArU6O)
-- De escritorio a nube crea SPoF, por ejemplo[Yahoo! perdiendo datos para 500 millones de personas] (http: //nyti.ms/2oAqn0G.)
+- [Servicios críticos fuera de línea](https://www.wired.com/2016/10/internet-outage-ddos-dns-dyn/) por ataques como DDoS en servidores DNS
+- Confianza implícita, por ejemplo, [TurkTrust CA emitió certificados de seguridad falsos para Google](http://cnet.co/2oArU6O)
+- De escritorio a nube crea SPoF, por ejemplo [Yahoo! perdiendo datos para 500 millones de personas](http://nyti.ms/2oAqn0G.)
 
 --
 
@@ -941,7 +941,7 @@ Internet ya tiene más de 40 años
 
 ---
 
-## Blockstack goals
+## Metas Blockstack
 
 - Nombramiento y Descubrimiento Descentralizado
   * Registrarse y utilizar nombres legibles por personas
@@ -970,17 +970,17 @@ Internet ya tiene más de 40 años
 ## Blockstack layers
 
 - Cadena de bloques virtual, encima de la cadena de bloques Bitcoin
-- *Atlas*, una red de compañeros
+- *Atlas*, una red de pares
   * Índice global de información de descubrimiento
-- Gaia**, sistema de almacenamiento descentralizado
+- **Gaia**, sistema de almacenamiento descentralizado
 
-> Los usuarios no necesitan confiar en ninguna capa de datos </small>.
+> <small>Los usuarios no necesitan confiar en ninguna capa de datos </small>.
 
 ---
 
 ## Blockstack - Capa de cadena de bloques
 
-<pequeño> DApp tipo II </pequeño>
+<small> DApp tipo II </small>
 
 ![](img/blockstack.blocks.png)
 
@@ -992,11 +992,11 @@ Internet ya tiene más de 40 años
 
 --
 
-## Sample Blockstack transacción de datos nula
+## Ejemplo de transacción de datos nulos de Blockstack
 
 <small> NAME_REGISTRATION bluestack.id </small>
 
-[](img/bitcoin.tx.702e76497a6061222208698c4d0fbed6ca768d10832e1b8da9184a8ea6f5ded8.png)](https://www.blocktrail.com/BTC/tx/702e76497a6061222208698c4d0fbed6ca768d10832e1b8da9184a8ea6f5ded8)
+[![](img/bitcoin.tx.702e76497a6061222208698c4d0fbed6ca768d10832e1b8da9184a8ea6f5ded8.png)](https://www.blocktrail.com/BTC/tx/702e76497a6061222208698c4d0fbed6ca768d10832e1b8da9184a8ea6f5ded8)
 
 ---
 
@@ -1004,8 +1004,8 @@ Internet ya tiene más de 40 años
 
 ###### ¿Por qué?
 
-- RSM coherentes con la horquilla* en las cadenas de bloques existentes
-- Detección y recuperación de horquillas
+- RSM coherentes con la bifurcacion* en las cadenas de bloques existentes
+- Detección y recuperación de bifurcaciones
 - Migración a través de la cadena
   *[Razones](https://blockstack.org/blog/why-blockstack-is-migrating-to-the-bitcoin-blockchain) para que Blockstack migre de Namecoin a Bitcoin
 
@@ -1055,6 +1055,3 @@ Internet ya tiene más de 40 años
 
 - Gracias por venir!
 - Nos encantaría conocer su opinión: [bit.ly/blockstack-cuba-feedback](http://bit.ly/blockstack-cuba-feedback)
-
-
-

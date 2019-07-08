@@ -229,7 +229,7 @@ Password: meet-ups
 - Sender prepares UTXO for recipient (as before)
 - Sender broadcasts transaction (P2P network)
 - Miners add it to a block
-  * Script validation ! ( A-ha! )
+  - Script validation ! ( A-ha! )
 - Wallet : Update balance
 
 --
@@ -898,7 +898,7 @@ Gavin Andresen, Bitcoin Foundation’s Chief Scientist, in [Reddit post](http://
 
 - Tokens are generated using a predefined mechanism and are only available for the development of the DApp.
 
-> <small> In addition to its fund-raising mechanism, the Master Protocol used the collaboration mechanism to fund its future development. Some Mastercoins are distributed via a community-driven bounty system based on the PoS mechanism.
+> <small> In addition to its fund-raising mechanism, the Master Protocol used the collaboration mechanism to fund its future development. Some Mastercoins are distributed via a community-driven bounty system based on the PoS mechanism.</small>
 
 ---
 
@@ -911,8 +911,8 @@ Gavin Andresen, Bitcoin Foundation’s Chief Scientist, in [Reddit post](http://
 The Internet is +40 years old now
 
 - [Critical services offline](https://www.wired.com/2016/10/internet-outage-ddos-dns-dyn/) by attacks like DDoS on DNS servers
-- Implicit trust e.g. [TurkTrust CA issued false security certificates for Google](http: //cnet.co/2oArU6O)
-- Desktop to cloud creates SPoF e.g. [Yahoo! losing data for 500M people](http: //nyti.ms/2oAqn0G.)
+- Implicit trust e.g. [TurkTrust CA issued false security certificates for Google](http://cnet.co/2oArU6O)
+- Desktop to cloud creates SPoF e.g. [Yahoo! losing data for 500M people](http://nyti.ms/2oAqn0G.)
 
 --
 
