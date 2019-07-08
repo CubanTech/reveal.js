@@ -920,10 +920,10 @@ func main() {
 
 --
 
-Uh oh! We ran out of slides! Feel free to try out some of the other components in your kit while we add more!
+Uh oh oh! Nos acabamos las diapositivas! Siéntase libre de probar algunos de los otros componentes de su kit mientras nosotros añadimos más!
 
 ---
 
-## Wrapping Up
+## Winding Up
 
-- Thank you for coming!
+- Gracias por venir!
