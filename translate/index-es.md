@@ -3,15 +3,15 @@
 ## [meetup.cuban.tech](http://meetup.cuban.tech)
 
 - [Introducción al taller de PyDay Django parte 3](intro_20180729.html)
-  *[CubanTech Encuentro #37](http://docker.cuban.tech/events/251517589/) - La Habana, Cuba 2018/07/29
+  - [CubanTech Encuentro #37](http://docker.cuban.tech/events/251517589/) - La Habana, Cuba 2018/07/29
 - [Bienvenido a Raspberry Jam](intro_2018080303.html)
-  *[CubanTech Encuentro #31](http://meetup.cuban.tech/events/247616068/) - La Habana, Cuba 2018/03/03
+  - [CubanTech Encuentro #31](http://meetup.cuban.tech/events/247616068/) - La Habana, Cuba 2018/03/03
 - [Introducción a la reunión de Neo4J PyDay](intro_20180113.html)
-  *[CubanTech Encuentro #28](http://meetup.cuban.tech/events/246212946/) - La Habana, Cuba 2018/01/13
+  - [CubanTech Encuentro #28](http://meetup.cuban.tech/events/246212946/) - La Habana, Cuba 2018/01/13
 - [Introducción a PyDay y reunión de cumpleaños #1](intro_20171222.html)
-  *[CubanTech Encuentro #26](http://meetup.cuban.tech/events/245032996/) - La Habana, Cuba 2017/12/22
+  - [CubanTech Encuentro #26](http://meetup.cuban.tech/events/245032996/) - La Habana, Cuba 2017/12/22
 
---
+----------------
 
 ## Reuniones CubanTech
 
@@ -26,7 +26,8 @@
 ---
 
 [![Docker Cuba](img/dockercuba.logo.png)](http://docker.cuban.tech)
-##### [docker.cuban.tech](http://docker.cuban.tech)
+
+## [docker.cuban.tech](http://docker.cuban.tech)
 
 --
 
@@ -107,4 +108,3 @@
 
 - [Electrónica digital - parte 1](https://slides.cuban.tech/digital-electronics-1.html)
   - [CubanTech Encuentro #45](https://www.meetup.com/CubanTech/events/258279078/) - La Habana, Cuba 2019/01/27
-  
