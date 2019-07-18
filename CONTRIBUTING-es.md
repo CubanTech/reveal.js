@@ -20,5 +20,4 @@ Al informar de un fallo, asegúrese de incluir información sobre el navegador y
 
 ## Plugins
 
-Por favor, no envíe plugins como solicitudes pull. Deberían mantenerse en su propio repositorio separado. Más información aquí:
-https://github.com/hakimel/reveal.js/wiki/Plugin-Guidelines
+Por favor, no envíe plugins como solicitudes pull. Deberían mantenerse en su propio repositorio separado. Más información aquí:<https://github.com/hakimel/reveal.js/wiki/Plugin-Guidelines>
