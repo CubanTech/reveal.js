@@ -26,7 +26,7 @@ Contraseña: meet-ups
 - Vista general de Blockstack
 - RSM de DApp independiente de blockchain con VirtualChain
 
-<small> Notas sobre la red Bitcoin P2P entre </small>
+Notas sobre la red Bitcoin P2P entre
 
 ----------------
 
@@ -46,7 +46,7 @@ Contraseña: meet-ups
 
 ![transición](img/rsm.transition.png)
 
----
+----------------
 
 ## El problema de la escalabilidad
 
@@ -56,9 +56,9 @@ Contraseña: meet-ups
 
 ## Estadísticas de Bitcoin
 
-![](img/bitcoin.stats.png)
+![Estadísticas de Bitcoin](img/bitcoin.stats.png)
 
----
+----------------
 
 ## Servicios distribuidos como máquinas de estado
 
@@ -67,9 +67,9 @@ Contraseña: meet-ups
 - Protocolos para interacciones de clientes con réplicas
 - Aislamiento físico y eléctrico para fallos independientes del servidor
 - Asumamos que la máquina de estado determinista
-  * .... incluso si Turing completo es posible
+  - .... incluso si Turing completo es posible
 
----
+----------------
 
 ## El enfoque de la máquina de estado
 
@@ -79,29 +79,29 @@ Contraseña: meet-ups
 - Ejecute la transición de SM una y otra vez
 - Supervisar las réplicas en busca de diferencias de estado o de salida.
 
----
+----------------
 
 ## El enfoque de la máquina de Estado
 
-##### Desplegar software en múltiples nodos
+### Desplegar software en múltiples nodos
 
-<small> [![](img/dockercuba.logo.png)](http://docker.cuban.tech) </small>
+[![Logo docker Cuba](img/dockercuba.logo.png)](http://docker.cuban.tech)
 
-<small>[docker.cuban.tech](http://docker.cuban.tech) </small>
+[docker.cuban.tech](http://docker.cuban.tech)
 
 - Repositorios de paquetes de software
-  * por ejemplo[bitcoind @ Debian](https://packages.debian.org/bitcoind),[Blockstack apt repo](https://packages.blockstack.com), ....
+  - por ejemplo[bitcoind @ Debian](https://packages.debian.org/bitcoind),[Blockstack apt repo](https://packages.blockstack.com), ....
 - Contenedores y registros
-  * Por ejemplo,[Lisk](https://hub.docker.com/u/lisk/),[Blockstack](https://hub.docker.com/u/blockstack), .... Docker Hub
+  - Por ejemplo,[Lisk](https://hub.docker.com/u/lisk/),[Blockstack](https://hub.docker.com/u/blockstack), .... Docker Hub
 - Herramientas CM (Ansible, Puppet, Chef, Habitat, ....)
 
---
+----------------
 
 ## Estado de CM - Q1 2017
 
-![](img/forrester_wave_cm_q1.jpg)
+![Forrester Wave](img/forrester_wave_cm_q1.jpg)
 
----
+----------------
 
 ## El enfoque de máquina de estado
 
@@ -111,35 +111,35 @@ Contraseña: meet-ups
 - Ejecute la transición de SM una y otra vez
 - Supervisar las réplicas en busca de diferencias de estado o de salida.
 
----
+----------------
 
 ## El enfoque de la máquina estatal
 
-###### Recibir las peticiones de los clientes
+### Recibir las peticiones de los clientes
 
 - Múltiples soluciones
 - p. ej., transacciones Bitcoin
 
---
+----------------
 
 ## Bitcoin - Anatomía de las transacciones
 
-##### Meta-datos importantes (excepto[transacciones en la base de monedas](https://bitcoin.org/en/glossary/coinbase-transaction))
+### Meta-datos importantes (excepto[transacciones en la base de monedas](https://bitcoin.org/en/glossary/coinbase-transaction))
 
-<small>![](img/bitcoin-en-tx-overview.svg) </small>
+<small>![Bitcoin](img/bitcoin-en-tx-overview.svg) </small>
 
 - ID de transacción (global)
 - Número de versión (evolución del protocolo)
 - Hora de cierre
-  * La primera vez que se puede añadir TX a la cadena de bloques
-  * Transacciones con bloqueo temporal que sólo son válidas en el futuro.
-  * Cancelaciones
+  - La primera vez que se puede añadir TX a la cadena de bloques
+  - Transacciones con bloqueo temporal que sólo son válidas en el futuro.
+  - Cancelaciones
 
 --
 
 ## Bitcoin - Anatomía de las transacciones
 
-##### Entradas y salidas
+### Entradas y salidas
 
 <small>![](img/bitcoin-en-tx-overview.svg) </small>
 
