@@ -43,62 +43,68 @@
 
 [![Python Cuba](img/python-logo.png)](http://pythoncuba.org)
 
-# PYTHON CUBA
-##### Siga Nuestro [meetups](http://meetup.cuban.tech)
+## PYTHON CUBA
+
+### Siga Nuestro [meetups](http://meetup.cuban.tech)
 
 --
 
 - Estado de Python . Aplicaciones
-  * PyDay #1 , La Habana
+  - PyDay #1 , La Habana
 - Introducción a Brython. Ejemplo de aplicación Tizen
-  * Joven Club, Cienfuegos, Cuba
+  - Joven Club, Cienfuegos, Cuba
 - [Introducción a MicroPython en ESP8266](micropython.html)
-  *[CubanTech Encuentro #13](http://meetup.cuban.tech/events/240871291/) - PyDay Joven Club, Cienfuegos, Cuba 2017/06/16
-  *[CubanTech Encuentro #19](http://meetup.cuban.tech/events/242499554/) - PyDay Isla de la Juventud, Cuba 2017/08/20
+  - [CubanTech Encuentro #13](http://meetup.cuban.tech/events/240871291/) - PyDay Joven Club, Cienfuegos, Cuba 2017/06/16
+  - [CubanTech Encuentro #19](http://meetup.cuban.tech/events/242499554/) - PyDay Isla de la Juventud, Cuba 2017/08/20
 - [Python y Pandas para periodismo de datos](pandas-ddj.html)
-  *[CubanTech Encuentro #16 ](http://meetup.cuban.tech/events/240372001/)- PyDay La Habana Cuba 2017/07/29
+  - [CubanTech Encuentro #16](http://meetup.cuban.tech/events/240372001/)- PyDay La Habana Cuba 2017/07/29
 
 ---
 
-# NODEBOTS CUBA
-##### Siga Nuestro [meetups](http://meetup.cuban.tech)
+## NODEBOTS CUBA
+
+### Siga Nuestro [meetups](http://meetup.cuban.tech)
 
 --
 
 - [Nodebots con CubanTech](nodebots.html)
-  *[CubanTech Encuentro #3](#) - Holgu&iacute;a Cuba 2016/12/25
-  *[CubanTech Encuentro #18](http://meetup.cuban.tech/events/241706888/) - Isla de la Juventud Cuba 2017/08/21
-  *[CubanTech Encuentro #20](http://meetup.cuban.tech/events/242652841/) - La Habana Cuba 2017/08/26
+  - [CubanTech Encuentro #3](#) - Holgu&iacute;a Cuba 2016/12/25
+  - [CubanTech Encuentro #18](http://meetup.cuban.tech/events/241706888/) - Isla de la Juventud Cuba 2017/08/21
+  - [CubanTech Encuentro #20](http://meetup.cuban.tech/events/242652841/) - La Habana Cuba 2017/08/26
 
 ---
 
-# SKYFLEET MEETUPS
-##### Siga Nuestro [meetups](http://meetup.cuban.tech)
+## SKYFLEET MEETUPS
+
+### Siga Nuestro [meetups](http://meetup.cuban.tech)
 
 --
 
 - [Blockchain, DApps y Skycoin](skycoin.intro.html)
-  *[CubanTech Encuentro #35](http://meetup.cuban.tech/events/251519052) - La Habana, Cuba, 2018/06/16 
+  - [CubanTech Encuentro #35](http://meetup.cuban.tech/events/251519052) - La Habana, Cuba, 2018/06/16 
   *[CubanTech Encuentro #36](http://meetup.cuban.tech/events/251523453) - Isla de la Juv., Cuba, 2018/07/02 
 - [Explicación de la API de REST de Skycoin](skycoin.libs.html)
   *[CubanTech Encuentro #52](http://meetup.cuban.tech/events/259974015) - La Habana, Cuba, 06/04/2010
 
 ---
 
-# BLOCKSTACK CUBA
-##### [blockstack.cuban.tech](http://blockstack.cuban.tech)
+## BLOCKSTACK CUBA
+
+### [blockstack.cuban.tech](http://blockstack.cuban.tech)
 
 --
 
 - [Blockchain, DApps y Blockstack](dapps.html)
-  *[Blockstack Cuba Encuentro #1](http://blockstack.cuban.tech/events/244120891), La Habana, Cuba, 2017/11/19 
+  - [Blockstack Cuba Encuentro #1](http://blockstack.cuban.tech/events/244120891), La Habana, Cuba, 2017/11/19 
 
 ---
 
-# Los que hacen DIY Cuba
-##### Siga Nuestro [meetups](http://meetup.cuban.tech)
+## Los que hacen DIY Cuba
+
+### Siga Nuestros [meetups](http://meetup.cuban.tech)
 
 --
 
 - [Electrónica digital - parte 1](https://slides.cuban.tech/digital-electronics-1.html)
-  *[CubanTech Encuentro #45](https://www.meetup.com/CubanTech/events/258279078/) - La Habana, Cuba 2019/01/27
+  - [CubanTech Encuentro #45](https://www.meetup.com/CubanTech/events/258279078/) - La Habana, Cuba 2019/01/27
+  
