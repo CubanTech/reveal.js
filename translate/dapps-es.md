@@ -159,7 +159,7 @@ Notas sobre la red Bitcoin P2P entre
 
 <small> blocktrail.com </small>
 
-![](img/bitcoin.tx.c60e4dc5e69c19ff53a45954d8a8996fd9aac6fda317fd7238dec6a482c718cf.png)
+![Bitcoin](img/bitcoin.tx.c60e4dc5e69c19ff53a45954d8a8996fd9aac6fda317fd7238dec6a482c718cf.png)
 
 --
 
@@ -167,10 +167,10 @@ Notas sobre la red Bitcoin P2P entre
 
 ##### Configuración de pago a clave pública (P2PKKH)
 
-![](img/bitcoin-en-crear-p2pkh-output.svg)
+![Bitcoin](img/bitcoin-en-crear-p2pkh-output.svg)
 
 - Curva (elíptica) ECDSA secp256k1
-  * Generación de claves públicas determinantes (hash)
+  - Generación de claves públicas determinantes (hash)
 
 --
 
