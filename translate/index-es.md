@@ -1,5 +1,6 @@
-## Reuniones CubanTech
-##### [meetup.cuban.tech](http://meetup.cuban.tech)
+# Reuniones CubanTech
+
+## [meetup.cuban.tech](http://meetup.cuban.tech)
 
 - [Introducción al taller de PyDay Django parte 3](intro_20180729.html)
   *[CubanTech Encuentro #37](http://docker.cuban.tech/events/251517589/) - La Habana, Cuba 2018/07/29
@@ -13,7 +14,8 @@
 --
 
 ## Reuniones CubanTech
-##### [meetup.cuban.tech](http://meetup.cuban.tech)
+
+### [meetup.cuban.tech](http://meetup.cuban.tech)
 
 - [Introducción a Blockstack Cuba Encuentro #1](intro_20171119.html)
   *[Blockstack Cuba Encuentro #1](http://blockstack.cuban.tech/events/244120891/) - La Habana, Cuba 2017/11/19

@@ -1,9 +1,10 @@
-## Blockchain, DApps y Blockstack
-#### Conceptos básicos para empezar
+# Blockchain, DApps y Blockstack
+
+## Conceptos básicos para empezar
 
 ----------------
 
-#### Estas diapositivas: [slides.cuban.tech/dapps.html](http://slides.cuban.tech/dapps.html)
+### Estas diapositivas: [slides.cuban.tech/dapps.html](http://slides.cuban.tech/dapps.html)
 
 ----------------
 
@@ -13,7 +14,7 @@ Red: cubantech
 
 Contraseña: meet-ups
 
----
+----------------
 
 ## Esbozo
 
@@ -27,19 +28,19 @@ Contraseña: meet-ups
 
 <small> Notas sobre la red Bitcoin P2P entre </small>
 
----
+----------------
 
 ## Máquinas de Estado - Estados
 
 ![Estados](img/rsm.states.png)
 
----
+----------------
 
 ## Máquinas de estado - Entradas
 
 ![Entradas](img/rsm.inputs.png)
 
----
+----------------
 
 ## Máquinas de Estado - Transición
 
