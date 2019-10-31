@@ -945,10 +945,10 @@ Internet ya tiene más de 40 años
 ## Metas Blockstack
 
 - Nombramiento y Descubrimiento Descentralizado
-  * Registrarse y utilizar nombres legibles por personas
-  * Descubra los recursos de red sin tener que confiar en ninguna parte remota.
+  - Registrarse y utilizar nombres legibles por personas
+  - Descubra los recursos de red sin tener que confiar en ninguna parte remota.
 - Almacenamiento descentralizado
-  * Almacenar datos sin revelarlos a terceros remotos.
+  - Almacenar datos sin revelarlos a terceros remotos.
 - Rendimiento comparable
 
 ---
@@ -957,7 +957,7 @@ Internet ya tiene más de 40 años
 
 - Sobrevivir a las fallas de las cadenas de bloqueo subyacentes
 - Mantenga la complejidad y la lógica fuera de las cadenas de bloqueo
-  * opuesto a NameCoin, Ethereum, etc. ...
+  - opuesto a NameCoin, Ethereum, etc. ...
 - Índice escalable para datos globales
 
 ---
@@ -972,7 +972,7 @@ Internet ya tiene más de 40 años
 
 - Cadena de bloques virtual, encima de la cadena de bloques Bitcoin
 - *Atlas*, una red de pares
-  * Índice global de información de descubrimiento
+  - Índice global de información de descubrimiento
 - **Gaia**, sistema de almacenamiento descentralizado
 
 > <small>Los usuarios no necesitan confiar en ninguna capa de datos </small>.
@@ -1008,7 +1008,7 @@ Internet ya tiene más de 40 años
 - RSM coherentes con la bifurcacion* en las cadenas de bloques existentes
 - Detección y recuperación de bifurcaciones
 - Migración a través de la cadena
-  *[Razones](https://blockstack.org/blog/why-blockstack-is-migrating-to-the-bitcoin-blockchain) para que Blockstack migre de Namecoin a Bitcoin
+  - [Razones](https://blockstack.org/blog/why-blockstack-is-migrating-to-the-bitcoin-blockchain) para que Blockstack migre de Namecoin a Bitcoin
 
 --
 
