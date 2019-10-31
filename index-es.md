@@ -83,9 +83,9 @@
 
 - [Blockchain, DApps y Skycoin](skycoin.intro.html)
   - [CubanTech Encuentro #35](http://meetup.cuban.tech/events/251519052) - La Habana, Cuba, 2018/06/16 
-  *[CubanTech Encuentro #36](http://meetup.cuban.tech/events/251523453) - Isla de la Juv., Cuba, 2018/07/02 
+  - [CubanTech Encuentro #36](http://meetup.cuban.tech/events/251523453) - Isla de la Juv., Cuba, 2018/07/02 
 - [Explicación de la API de REST de Skycoin](skycoin.libs.html)
-  *[CubanTech Encuentro #52](http://meetup.cuban.tech/events/259974015) - La Habana, Cuba, 06/04/2010
+  - [CubanTech Encuentro #52](http://meetup.cuban.tech/events/259974015) - La Habana, Cuba, 06/04/2010
 
 ---
 
