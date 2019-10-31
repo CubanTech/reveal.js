@@ -774,7 +774,7 @@ Pulse &darr; para desplazarse por los desafíos de los servos
 
 Pulse &darr; para desplazarse por los siguientes retos (y posibles soluciones)
 
-1. Rociador
+1. Apersor
 2. Flechas
 3. Botón
 
@@ -788,13 +788,13 @@ Haz que el servo gire de un lado a otro como si fuera un aspersor.
 
 --
 
-### Solución potencial de rociadores - Hardware
+### Solución potencial de aspersor - Hardware
 
 ![](img/sprinkler-hardware.png)
 
 --
 
-### Solución potencial de rociadores - Código
+### Solución potencial de aspersor - Código
 
 ```go
 package main
