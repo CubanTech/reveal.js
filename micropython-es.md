@@ -1,10 +1,8 @@
-
-
 ## Introducción a MicroPython
 
 #### Estas diapositivas: [slides.cuban.tech/micropython.html](http://slides.cuban.tech/micropython.html)
 
-----------------
+---
 
 ### Información Wifi
 
@@ -15,7 +13,7 @@ Contraseña: meet-ups
 --
 
 - Las diapositivas están basadas en una[charla](http://todayispotato.github.io/micropython-talk/#/25) de[Lars de Ridder](https://github.com/todayispotato)
-- El taller se basa en gran medida en[Nodebots con el taller CubanTech] (http://slides.cuban.tech/nodebots.html)
+- El taller se basa en gran medida en[Nodebots con el taller CubanTech](http://slides.cuban.tech/nodebots.html)
 - ... que se basa en gran medida en un taller de[NY-Javascript](http://www.meetup.com/NY-Javascript) (ver[bit.ly/nyjs-nodebots](http://bit.ly/nyjs-nodebots))
 - ... que se basa en gran medida en un taller de[Francis Gulotta](https://twitter.com/reconbot) y[Rick Waldron](https://twitter.com/rwaldron)
 - Puede encontrar las diapositivas para ese taller en[gul.ly/3tjj](http://gul.ly/3tjj)
@@ -23,9 +21,9 @@ Contraseña: meet-ups
 
 ---
 
-## Nuestras pautas de la comunidad
+## Las pautas de nuestras comunidad
 
-[Sé excelente el uno con el otro] (https://github.com/nodeschool/havana/blob/master/Code_of_Conduct.md)
+[Sé excelente el uno con el otro](https://github.com/nodeschool/havana/blob/master/Code_of_Conduct.md)
 
 ---
 
@@ -37,7 +35,7 @@ Próximos Eventos CubanTech
 
 ---
 
-# Enorme gracias a nuestro anfitrión
+# Un gracias Enorme a nuestro anfitrión
 
 ---
 
@@ -61,13 +59,13 @@ MicroPython es una implementación rápida y sencilla del lenguaje de programaci
 
 --
 
-## Really .... #
+## En serio...?
 
 - Puesta en marcha en noviembre de 2013
 - Arranque inicial terminado en abril de 2015
-  * &pound;97,803 primera campaña
-  * 200,000 en total
-- Código de código abierto :[github.com/micropython](https://github.com/micropython)
+  - &pound; 97,803 primera campaña
+  - +&pound; 200,000 en total
+- Código abierto :[github.com/micropython](https://github.com/micropython)
 
 ---
 
@@ -78,7 +76,7 @@ MicroPython es una implementación rápida y sencilla del lenguaje de programaci
 - Buena separación entre int y float (a diferencia de JS/Lua)
 - Operaciones binarias nativas en 1's y 0's (a diferencia de Lua)
 - Ideal para la creación rápida de prototipos
-- Puente entre el mundo web y el mundo de la IO
+- Puente entre el mundo web y el mundo de la internet de las cosas IoT
 - Muchas oportunidades para la optimización!
 
 --
@@ -88,7 +86,7 @@ MicroPython es una implementación rápida y sencilla del lenguaje de programaci
 Principalmente debido al uso de RAM. Ejemplos:
 
 - Preasignación de 257 + 5 ints = 4k RAM
-- Method calls: led.on() crea un objeto de método encuadernado = 20 bytes de RAM
+- Llamadas a métodos: led.on() crea un objeto de método encuadernado = 20 bytes de RAM
 
 --
 
@@ -100,7 +98,7 @@ Principalmente debido al uso de RAM. Ejemplos:
 
 ---
 
-# ¿Cómo es que Micro?
+# ¿Cómo que Micro?
 
 --
 
@@ -113,7 +111,7 @@ Principalmente debido al uso de RAM. Ejemplos:
 
 --
 
-## Tagged pointers
+## Punteros etiquetados
 
 Un puntero etiquetado es un puntero (concretamente una dirección de memoria) con datos adicionales asociados a él.
 
@@ -138,7 +136,7 @@ Un puntero etiquetado es un puntero (concretamente una dirección de memoria) co
 
 ## ¿Está lista la producción?
 
-Depende de tu tabla
+Depende de tu placa
 
 Pero es increíble para la creación de prototipos!
 
@@ -146,11 +144,11 @@ O para incrustar en juegos y aplicaciones
 
 --
 
-## Embedding Python in games #
+## ¿Incrustar a Python en juegos?
 
 ![](img/civ.iv.jpg)
 
-... ha ocurrido antes, no MicroPython sin embargo....
+... ha ocurrido antes, sin embargo no MicroPython ....
 
 --
 
@@ -180,7 +178,7 @@ Casi todo excepto el motor de renderizado,[según Steve Moret](http://www.pygame
 
 ![](img/BridgeCommander.small.jpg)
 
-Guiones de las misiones
+Scripts de las misiones
 
 --
 
@@ -196,7 +194,7 @@ Toda la lógica interna, incluida la IA. La API está disponible.
 
 ### Python embebido para videojuegos
 
-##### Campo de batalla 2
+##### Battlefield 2
 
 ![](img/battlefield.4.small.jpeg)
 
@@ -229,7 +227,7 @@ Juego, resultados, estadísticas del equipo
 
 ## BBC Micro:Bit
 
-Suministrado a *1 millón* de niños en edad escolar
+Suministrado a _1 millón_ de niños en edad escolar
 
 - Editor de Python en línea
 - Aplicación móvil para cargar código
@@ -237,7 +235,7 @@ Suministrado a *1 millón* de niños en edad escolar
 
 --
 
-### ...viene con nosotros:
+### ...viene con:
 
 ![](img/microbit.pxt.pxt.small.png)
 
@@ -255,7 +253,7 @@ Suministrado a *1 millón* de niños en edad escolar
 
 --
 
-## Cómpralo ahora # ... :)
+## Cómpralo ahora! ... :)
 
 ![](img/microbit.amazon.png)
 
@@ -277,53 +275,52 @@ El envío es gratuito para pedidos en el Reino Unido \o/
 
 ![](img/lopy.small.png)
 
-LoRa + Pitón
+LoRa + Python
 
 --
 
-## LoRa ... hmmm #
+## LoRa ... hmmm ?
 
 [![](img/lora.logo.white.png)](https://www.lora-alliance.org/)
 
-- Plataforma inalámbrica de largo alcance y bajo consumo 
-- Elección de la tecnología predominante para la creación de redes de IO en todo el mundo.
-- 500 miembros
+- Plataforma inalámbrica de largo alcance y bajo consumo
+- Elección de la tecnología predominante para la creación de redes de Internet de las cosas(IoT) en todo el mundo.
+- +500 miembros
 - LoRaWAN<sup>&#153;</sup> Implementación de protocolos
-  * Especificación WAN de bajo consumo (LPWAN) para dispositivos inalámbricos que funcionan con baterías.
+  - Especificación WAN de bajo consumo (LPWAN) para dispositivos inalámbricos que funcionan con baterías.
 
 ---
 
-## Pluma M0 Express
+## Feather M0 Express
 
-| | |
-|-----------------------------|------------------------|
-| | [![](img/feather.m0.express.png)](https://www.adafruit.com/product/3403) | | <div style="width: 400px; display:inline-block"> ![](img/adafruit.logo.jpg) </div> | | }.
-
-
+|     |                                                                          |
+| --- | ------------------------------------------------------------------------ |
+|     | [![](img/feather.m0.express.png)](https://www.adafruit.com/product/3403) |  | <div style="width: 400px; display:inline-block"> ![](img/adafruit.logo.jpg) </div> |  | }. |
 
 --
 
 ## Feather M0 con radio
 
-| | |
-|------------------------------------|-----------------------------------------------------------------------|
-[img/feather.m0.lora.png] | |[](img/feather.m0.rfm69hcw.png) |
+|                                                                       |                                                                                                                                      |
+| --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| [img/feather.m0.lora.png]                                             |                                                                                                                                      | [](img/feather.m0.rfm69hcw.png) |
 | RFM59 LoRA -[900 MHz](https://www.adafruit.com/product/3178) </small> | <small> Packet Radio[433 MHz](https://www.adafruit.com/product/3177),[868 o 915 MHz](https://www.adafruit.com/product/3176) </small> |
 
 --
 
 ## Feather M0 wireless
 
-| | |
-|------------------------------------|-----------------------------------------------------------------------|
-|[](img/feather.m0.atwinc1500.png) | ![](img/feather.m0.bluefruit.png) |
+|                                   |                                   |
+| --------------------------------- | --------------------------------- |
+| [](img/feather.m0.atwinc1500.png) | ![](img/feather.m0.bluefruit.png) |
+
 | https://www.adafruit.com/product/3010 DIFUNDE LA PALABRA-
 
 --
 
-## Pluma M0 Express - especificaciones
+## Feather M0 Express - especificaciones
 
-- Llave de almacenamiento USB[cargador de arranque UF2] (https://learn.adafruit.com/adafruit-feather-m0-express-designed-for-circuit-python-circuitpython/uf2-bootloader)
+- Llave de almacenamiento USB[cargador de arranque UF2](https://learn.adafruit.com/adafruit-feather-m0-express-designed-for-circuit-python-circuitpython/uf2-bootloader)
 - ATSAMD21G18 @ 48MHz con lógica/potencia de 3.3V
 - 256 KB de FLASH + 32 KB de RAM
 - Cristal de 32.768 KHz para la generación de relojes y RTC
@@ -332,7 +329,7 @@ LoRa + Pitón
 
 --
 
-## Pluma M0 Express - especificaciones
+## Feather M0 Express - especificaciones
 
 - 20 pines GPIO (salidas PWM para todos)
 - Serial de hardware, I2C, soporte SPI
@@ -347,7 +344,7 @@ LoRa + Pitón
 
 ![](img/feather.huzzah.small.png)
 
-... también funciona con los chips ESP8266 (es decir, muchos) 
+... también funciona con los chips ESP8266 (es decir, muchos)
 
 ---
 
@@ -357,11 +354,11 @@ LoRa + Pitón
 
 --
 
-## AMICA NodeMCU devkit
+## Dispositivo AMICA NodeMCU
 
-| | |
-|-------------------------------|-------------------------------|
-| DIFUNDE LA PALABRA-
+|                               |                                 |
+| ----------------------------- | ------------------------------- |
+| ![](img/nodemcu.v1.amica.jpg) | ![](img/nodemcu.v1.amica.2.jpg) |
 
 ---
 
@@ -401,21 +398,21 @@ LoRa + Pitón
 
 --
 
-## Pluma HUZZAH - Cargador lipolítico 100mA
+## Feather HUZZAH - Cargador lipoly 100mA
 
 ![](img/feather.huzzah.lipoly.png)
 
 --
 
-## Pluma HUZZAH ESP8266 - especificaciones
+## Feather HUZZAH ESP8266 - especificaciones
 
-- ESP8266 @ 80MHz o 160 MHz 
+- ESP8266 @ 80MHz o 160 MHz
 - Lógica/potencia de 3.3V, salida de corriente máxima de 500mA
 - 4MB de FLASH (32 MBit)
 - CP2104 Convertidor USB-Serial a bordo
-  * 921600 velocidad de transmisión máxima para la carga
+  - 921600 velocidad de transmisión máxima para la carga
 - 9 pines GPIO
-  * también se puede utilizar como I2C y SPI
+  - también se puede utilizar como I2C y SPI
 - 1 x entradas analógicas 1,0V máx.
 
 --
@@ -435,22 +432,22 @@ LoRa + Pitón
 ## HUZZAH ESP8266 Breakout - especificaciones
 
 - 1 x Entrada analógica (1,0 V máx.)
-- 9 x GPIO (lógica 3.3V)
-  * También se utiliza para I2C o SPI
-- 2 x clavijas UART
+- 9 x GPIO (3.3V lógico)
+  - También se utiliza para I2C o SPI
+- 2 x pines UART
 - 2 x 3-6V entradas de alimentación
-  * Restablecer, habilitar, deshabilitar LDO
-  * Salida de 3.3V
+  - Restablecer, habilitar, deshabilitar LDO
+  - Salida de 3.3V
 
 --
 
-## HUZZAH ESP8266 Breakout - clavijas de potencia
+## HUZZAH ESP8266 Breakout - pines de alimentacion
 
 ![](img/huzzah.breakout.pinout.power.png)
 
 - regulador de voltaje (se pega a 4V a 6V)
-  * Diodos Schottky](https://en.wikipedia.org/wiki/Schottky_diode) para tensiones variables
-- **VBat*** Batería Lipoly
+  - [Diodos Schottky](https://en.wikipedia.org/wiki/Schottky_diode) para tensiones variables
+- **VBat\*** Batería Lipoly
 - **V+** : 5V (FTDI/cabecera en serie)
 
 --
@@ -463,14 +460,14 @@ LoRa + Pitón
 
 --
 
-## HUZZAH ESP8266 Breakout - Pasadores GPIO
+## HUZZAH ESP8266 Breakout - Pines GPIO
 
 ![](img/huzzah.breakout.pinout.gpio.png)
 
 - No hay pull-up en **#0**
-- Lógica de 3.3V 
-  * Corriente máxima consumida: 12mA.
-- Hoja de especificaciones completa](http://www.adafruit.com/datasheets/ESP8266_Specifications_English.pdf)
+- Lógica de 3.3V
+  - Corriente máxima consumida: 12mA.
+- [Hoja de especificaciones completa](http://www.adafruit.com/datasheets/ESP8266_Specifications_English.pdf)
 
 --
 
@@ -478,22 +475,22 @@ LoRa + Pitón
 
 ![](img/huzzah.breakout.pinout.analog.png)
 
-- A** : entrada analógica ( 0 - 1,0V)
-- LDO** : conectar a **GND** para apagar el regulador de 3.3V
+- **A** : entrada analógica ( 0 - 1,0V)
+- **LDO** : conectar a **GND** para apagar el regulador de 3.3V
 - **RST** ( 5V) **EN** ( 3.3V)
-  * hasta **GND** para reiniciar el ESP8266
+  - hasta **GND** para reiniciar el ESP8266
 
 ---
 
 ## CircuitPython
 
-| | |
-|-----------------------------|------------------------|
-| DIFUNDE LA PALABRA-
+|                                 |                            |
+| ------------------------------- | -------------------------- |
+| ![](img/circuitpython.logo.png) | ![](img/adafruit.logo.jpg) |
 
 ---
 
-## Circuit Playground Express
+## Circuito Playground Express
 
 ![](img/circuitpython.small.png)
 
@@ -505,48 +502,48 @@ LoRa + Pitón
 
 - Editor gráfico de arrastrar y soltar
 - Editor en línea de Python y Javascript
-- Toneladas de[documentación] (http://adafru.it/wpE), material didáctico, etc.
+- Toneladas de [documentación](http://adafru.it/wpE), material didáctico, etc.
 
 --
 
-### Placa Circuit Playground Express - características
+### Placa Circuito Playground Express - características
 
 - ATSAMD21 ARM Procesador Cortex M0
-  * 3.3V y 48MHz
+  - 3.3V y 48MHz
 - 2 MB de almacenamiento SPI Flash
 - Puerto MicroUSB
-  * Programación y depuración
-  * Puerto serie
-  * teclado, ratón
-  * joystick o MIDI
+  - Programación y depuración
+  - Puerto serie
+  - teclado, ratón
+  - joystick o MIDI
 
 --
 
-### Placa Circuit Playground Express - otras características
+### Placa Circuito Playground Express - otras características
 
 - 10 x mini NeoPixels
 - 1 x sensor de movimiento (LIS3DH)
-  * Acelerómetro de tres ejes
-  * Detección de golpes y caídas libres
+  - Acelerómetro de tres ejes
+  - Detección de golpes y caídas libres
 - 1 x Sensor de temperatura (termistor)
 - 1 x Sensor de luz (fototransistor).
-  * Sensor de color y sensor de pulso.
+  - Sensor de color y sensor de pulso.
 
 --
 
-### Placa Circuit Playground Express - más funciones
+### Placa Circuito Playground Express - más características
 
 - 1 x micrófono MEMS
 - 1 x Mini-altavoz con amplificador clase D
 - 2 x Pulsadores
 - Receptor y transmisor de infrarrojos
-  * Recibir y transmitir cualquier código de control remoto
-  * Enviar mensajes entre Circuit Playground Expresses
-  * Sensor de proximidad.
+  - Recibir y transmitir cualquier código de control remoto
+  - Enviar mensajes entre Circuitos Playground Expresses
+  - Sensor de proximidad.
 
 --
 
-### Placa Circuit Playground Express - aún más funciones
+### Placa Circuito Playground Express - aún más características
 
 - 8 x pines de entrada/salida fáciles de pinza de cocodrilo
 
@@ -554,13 +551,13 @@ LoRa + Pitón
 
 ---
 
-## Baratija M0
+## Trinket M0
 
-<Clase pequeña="lg"> ![](img/trinket.m0.small.png) </small>
+<small class="lg"> ![](img/trinket.m0.small.png) </small>
 
 Tarjeta programable CircuitPython de bajo costo!
 
-<Pequeño> .... preinstalado nada más sacarlo de la caja! </small>
+<small> .... preinstalado nada más sacarlo de la caja! </small>
 
 --
 
@@ -568,24 +565,24 @@ Tarjeta programable CircuitPython de bajo costo!
 
 - El mismo tamaño, factor de forma y pinout que el Trinket clásico
 - ATSAMD21E18 Microcontrolador de 32 bits Cortex M0+ Atmel ATSAMD21 <span style="color:yellow">(ATtiny85 8-bit AVR)</span>
-  * 48 MHz 32 bit processor <span style="color:yellow">(+6x faster)</span>
+  - Procesador a 32 bit de 48 MHz <span style="color:yellow">(+6x mas rápido)</span>
 - 256KB Flash <span style="color:yellow">(8KB &rArr; 32x)</span>, 32 KB RAM <span style="color:yellow">(512B &rArr; 64x)</span>
 
 --
 
-## Baratija M0 - USB
+## Trinket M0 - USB
 
 - USB nativo soportado por todos los sistemas operativos <span style="color:yellow">(falta en Trinket)</span>
-  * Arduino IDE
-  * Consola serie CircuitPython USB
-  * Teclado/ratón HID
-  * .... incluso una pequeña unidad de disco para almacenar scripts Python. 
+  - Arduino IDE
+  - Consola serie CircuitPython USB
+  - Teclado/ratón HID
+  - .... incluso una pequeña unidad de disco para almacenar scripts Python.
 
 --
 
-## Baratija M0 - otras características
+## Trinket M0 - otras características
 
-<Clase pequeña="lg"> ![](img/trinket.m0.overview.png) </small>
+<small class="lg"> ![](img/trinket.m0.overview.png) </small>
 
 - Conector USB Micro B
 - 3 LED incorporados (RGB DotStar LED, LED rojo #13, LED ON)
@@ -593,20 +590,20 @@ Tarjeta programable CircuitPython de bajo costo!
 
 --
 
-## Baratija M0 - Parte trasera
+## Trinket M0 - Parte trasera
 
-<Clase pequeña="lg"> ![](img/trinket.m0.small.png) </small>
+<small class="lg"> ![](img/trinket.m0.small.png) </small>
 
-- Entrada de batería (unida a la clavija BAT) para soldar en un conector JST PH y alimentarlo con una batería externa.
-  * Batería de polímero de litio o paquetes de baterías JST 3xAAA
+- Entrada de batería (unida al pin BAT) para soldar en un conector JST PH y alimentarlo con una batería externa.
+  - Batería de polímero de litio o paquetes de baterías JST 3xAAA
 - Protecciones : polaridad inversa, sobrecorriente y térmica.
 - Conmutación entre USB y batería (tensión máxima)
 
 ---
 
-## Wrapping up .... #
+## Concluyendo ....
 
-> Especificaciones de la caja de tu tabla y mantenerlas abiertas.
+> <small> Especificaciones de la caja de tu tabla y mantenerlas abiertas.</small>
 
 --
 
@@ -616,7 +613,7 @@ Tarjeta programable CircuitPython de bajo costo!
 
 --
 
-## Circuit Playground Express
+## Circuito Playground Express
 
 ![](img/cpx.pinout.png)
 
@@ -646,7 +643,7 @@ Tarjeta programable CircuitPython de bajo costo!
 
 --
 
-## Baratija M0
+## Trinket M0
 
 ![](img/trinket.m0.pinout.png)
 
@@ -660,7 +657,7 @@ Tarjeta programable CircuitPython de bajo costo!
 
 ## NodeMCU v2 (por ejemplo, DoIT.am)
 
-<style="display:inline-block; color de fondo: #fff">![](img/nodemcu.v2.doit.pinout.png) </div>
+<div style="display:inline-block; color de fondo: #fff">![](img/nodemcu.v2.doit.pinout.png) </div>
 
 --
 
@@ -672,7 +669,7 @@ Tarjeta programable CircuitPython de bajo costo!
 
 ## Introducción a PyBoard
 
-Cero conf
+Zero conf
 
 ![](img/pyboard.small.png)
 
@@ -696,18 +693,18 @@ Monitor de udevadm --udev
 imprimirá los eventos recibidos:
 UDEV - el evento que udev envía después del procesamiento de reglas
 
-UDEV[1504678146.578976] add /devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1.2 (usb)
-UDEV[1504678146.746860] add /module/usbserial (módulo)
-UDEV[1504678146.747288] añadir /bus/usb-serial (bus)
-UDEV[1504678146.747855] añadir /bus/usb/drivers/usbserial (drivers)
-UDEV[1504678146.748149] añadir /bus/usb/drivers/usbserial_generic (drivers)
-UDEV[1504678146.748241] añadir /bus/usb-serial/drivers/generic (drivers)
-UDEV[1504678146.772466] añadir /module/ch341 (módulo)
-UDEV[1504678146.772783] añadir /bus/usb-serial/drivers/ch341-uart (drivers)
-UDEV[1504678146.774556] añadir /bus/usb/drivers/ch341 (drivers)
-UDEV[1504678146.774614] add /devices/pci0000:00/0000:00:00:1d.0/usb2/2-1/2-1/2-1.2/2-1.2-1.2:1.0 (usb)
-UDEV[1504678146.775507] add /devices/pci0000:00/0000:00:00:1d.0/usb2/2-1/2-1-1.2/2-1.2-1.2:1.0/ttyUSB0 (usb-serial)
-UDEV[1504678146.803046] add /devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1/2-1.2/2-1.2-1.2:1.0/ttyUSB0/tty/ttyUSB0 (tty)
+UDEV  [1504678146.578976] add      /devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1.2 (usb)
+UDEV  [1504678146.746860] add      /module/usbserial (module)
+UDEV  [1504678146.747288] add      /bus/usb-serial (bus)
+UDEV  [1504678146.747855] add      /bus/usb/drivers/usbserial (drivers)
+UDEV  [1504678146.748149] add      /bus/usb/drivers/usbserial_generic (drivers)
+UDEV  [1504678146.748241] add      /bus/usb-serial/drivers/generic (drivers)
+UDEV  [1504678146.772466] add      /module/ch341 (module)
+UDEV  [1504678146.772783] add      /bus/usb-serial/drivers/ch341-uart (drivers)
+UDEV  [1504678146.774556] add      /bus/usb/drivers/ch341 (drivers)
+UDEV  [1504678146.774614] add      /devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1.2/2-1.2:1.0 (usb)
+UDEV  [1504678146.775507] add      /devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1.2/2-1.2:1.0/ttyUSB0 (usb-serial)
+UDEV  [1504678146.803046] add      /devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1.2/2-1.2:1.0/ttyUSB0/tty/ttyUSB0 (tty)
 
 ```
 
@@ -717,7 +714,7 @@ UDEV[1504678146.803046] add /devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1/2-1.2/
 
 ```sh
 
-ls /dev/cu*serial*s
+ls /dev/cu*serial*
 /dev/cu.wchusbserial1410
 
 ```
@@ -732,7 +729,7 @@ esptool.py --port /dev/ttyUSB0 borrar_flash
 esptool.py --port /dev/ttyUSB0 --baud 460800 write_flash --flash_size=detect 0 esp8266-20170526-v1.9.bin
 ```
 
-- Especifique el nombre del dispositivo identificado anteriormente después de `--port
+- Especifique el nombre del dispositivo identificado anteriormente después de `--port`
 - Reduzca la velocidad de transmisión si se producen errores al parpadear (por ejemplo, hasta 115200).
 
 --
@@ -750,10 +747,10 @@ esptool.py --port /dev/ttyUSB0 --baud 460800 write_flash --flash_size=detect -fm
 ## Introducción - cargador de arranque UF2
 
 - Descargar archivo de imagen UF2
-  * por ejemplo[el último CPX CircuitPython UF2] (https://github.com/adafruit/circuitpython/releases/download/2.1.0/adafruit-circuitpython-circuitplayground_express-2.1.0.uf2) para Circuit Playground Express
+  - por ejemplo [el último CPX CircuitPython UF2](https://github.com/adafruit/circuitpython/releases/download/2.1.0/adafruit-circuitpython-circuitplayground_express-2.1.0.uf2) para Circuito Playground Express
 - Conecte la tarjeta al ordenador mediante un cable de datos USB
-- Restablece tu tabla.
-  * Por ejemplo, haga doble clic en el botón Reset situado en el centro del CPX.
+- [**OPTIONAL**] Restablece tu tabla.
+  - Por ejemplo, haga doble clic en el botón Reset situado en el centro del CPX.
 
 --
 
@@ -762,7 +759,7 @@ esptool.py --port /dev/ttyUSB0 --baud 460800 write_flash --flash_size=detect -fm
 ![](img/circuit_playground_greens.jpg)
 
 - Comprueba que tu placa está en modo bootloader
-  * p.ej. todos los LEDs se ponen verdes en el CPX
+  - p.ej. todos los LEDs se ponen verdes en el CPX
 
 --
 
@@ -771,11 +768,11 @@ esptool.py --port /dev/ttyUSB0 --baud 460800 write_flash --flash_size=detect -fm
 ![](img/circuit_playground_cplayboot.gif)
 
 - Aparece una nueva unidad de disco
-  * El nombre puede variar, por ejemplo, "CPLAYBOOT" para CPX.
+  - El nombre puede variar, por ejemplo, `CPLAYBOOT` para CPX.
 
 --
 
-## UF2 parpadeando
+## UF2 flasheando
 
 ![](img/circuit_playground_drag.png)
 
@@ -785,20 +782,20 @@ esptool.py --port /dev/ttyUSB0 --baud 460800 write_flash --flash_size=detect -fm
 
 ## Cómo empezar - BOSSAC
 
-- Descargue archivos de imagen BIN, por ejemplo,[último BIN para CPX] (https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/circuitplayground_express/)
-- Descargar[última versión de bossac] (https://github.com/shumatech/BOSSA/releases/latest)
-  * `mingw32` para Windows, `apple-darwin` para Mac OSX, y varias opciones `linux`.
+- Descargue archivos de imagen BIN, por ejemplo,[último BIN para CPX](https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/circuitplayground_express/)
+- Descargar [última versión de bossac](https://github.com/shumatech/BOSSA/releases/latest)
+  - `mingw32` para Windows, `apple-darwin` para Mac OSX, y varias opciones `linux`.
 
--- 
+--
 
 ## Flash con BOSSAC
 
 ```sh
 
-bossac -e -w -v -R ~/Downloads/adafruit-circuitpython-circuitplayground_express-1.0.0.0.bin
+$ bossac -e -w -v -R ~/Downloads/adafruit-circuitpython-circuitplayground_express-1.0.0.0.bin
 ```
 
-Se borra el chip, se escribe el archivo dado, se verifica la escritura y se reajusta la placa.
+`e` borra el chip, `w` escribe el archivo dado, `v` verifica la escritura y `r` resetea la placa.
 
 ---
 
@@ -812,30 +809,32 @@ Se borra el chip, se escribe el archivo dado, se verifica la escritura y se reaj
 
 ### Identificar y conectar a través de USB - GNU/Linux
 
-<pequeño>
+<small>
 ```sh
 Monitor de udevadm --udev
 imprimirá los eventos recibidos:
 UDEV - el evento que udev envía después del procesamiento de reglas
 
-UDEV[1504678146.578976] add /devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1.2 (usb)
-UDEV[1504678146.746860] add /module/usbserial (módulo)
-UDEV[1504678146.747288] añadir /bus/usb-serial (bus)
-UDEV[1504678146.747855] añadir /bus/usb/drivers/usbserial (drivers)
-UDEV[1504678146.748149] añadir /bus/usb/drivers/usbserial_generic (drivers)
-UDEV[1504678146.748241] añadir /bus/usb-serial/drivers/generic (drivers)
-UDEV[1504678146.772466] añadir /module/ch341 (módulo)
-UDEV[1504678146.772783] añadir /bus/usb-serial/drivers/ch341-uart (drivers)
-UDEV[1504678146.774556] añadir /bus/usb/drivers/ch341 (drivers)
-UDEV[1504678146.774614] add /devices/pci0000:00/0000:00:00:1d.0/usb2/2-1/2-1/2-1.2/2-1.2-1.2:1.0 (usb)
-UDEV[1504678146.775507] add /devices/pci0000:00/0000:00:00:1d.0/usb2/2-1/2-1-1.2/2-1.2-1.2:1.0/ttyUSB0 (usb-serial)
-UDEV[1504678146.803046] add /devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1/2-1.2/2-1.2-1.2:1.0/ttyUSB0/tty/ttyUSB0 (tty)
+UDEV [1504678146.578976] add /devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1.2 (usb)
+UDEV [1504678146.746860] add /module/usbserial (module)
+UDEV [1504678146.747288] add /bus/usb-serial (bus)
+UDEV [1504678146.747855] add /bus/usb/drivers/usbserial (drivers)
+UDEV [1504678146.748149] add /bus/usb/drivers/usbserial_generic (drivers)
+UDEV [1504678146.748241] add /bus/usb-serial/drivers/generic (drivers)
+UDEV [1504678146.772466] add /module/ch341 (module)
+UDEV [1504678146.772783] add /bus/usb-serial/drivers/ch341-uart (drivers)
+UDEV [1504678146.774556] add /bus/usb/drivers/ch341 (drivers)
+UDEV [1504678146.774614] add /devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1.2/2-1.2:1.0 (usb)
+UDEV [1504678146.775507] add /devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1.2/2-1.2:1.0/ttyUSB0 (usb-serial)
+UDEV [1504678146.803046] add /devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1.2/2-1.2:1.0/ttyUSB0/tty/ttyUSB0 (tty)
 
-picocom /dev/ttyUSB0 -b115200
-```
+\$ picocom /dev/ttyUSB0 -b115200
+
+````
+
 </small>
 
-... no siempre `ttyUSB0` e.g. `ttyACM0`. 
+... no siempre `ttyUSB0` e.g. `ttyACM0`.
 
 --
 
@@ -843,15 +842,15 @@ picocom /dev/ttyUSB0 -b115200
 
 ```sh
 
-ls /dev/cu*serial*s
+$ ls /dev/cu*serial*
 /dev/cu.wchusbserial1410
 
-pantalla /dev/cu.wchusbserial1410 115200 -L
-MicroPython v1.9-8-gfcaadf92 en 2017-05-26; módulo ESP con ESP8266
-Escriba "help()" para más información.
+$ screen /dev/cu.wchusbserial1410 115200 -L
+MicroPython v1.9-8-gfcaadf92 on 2017-05-26; ESP module with ESP8266
+Type "help()" for more information.
 >>>
 
-```
+````
 
 ... El nombre del dispositivo puede no ser `/dev/cu.wchusbserial1410`.
 
@@ -871,7 +870,7 @@ Escriba "help()" para más información.
 
 ---
 
-# Perdona... # 
+# Perdona...
 
 # ¿Qué es MicroPython?
 
@@ -879,40 +878,40 @@ Escriba "help()" para más información.
 
 ## ¡Es Python! (3.4-ish)
 
-"pitón
+```python
 
 >>> print('Hola mundo!')
 Hola mundo!
 
->>> con open('cubantech.txt', 'w') como f:
->>> f.write ('Hello CubanTech!')
+>>> with open('cubantech.txt', 'w') as f:
+>>>     f.write('Hola CubanTech!')
 
->>> con open('cubantech.txt', 'r') como f:
->>> para l en f:
->>> imprimir l
+>>> with open('cubantech.txt', 'r') as f:
+>>>     for l in f:
+>>>         print l
 Hola CubanTech!
 
->>> Inténtalo:
->>> 1/0
->>> excepto ZeroDivisionError como e:
->>> Imprimir ("¡Oh, tú!")
-¡Oh, tú!
+>>> try:
+>>>     1/0
+>>> except ZeroDivisionError as e:
+>>>     print("Oh, you!")
+Oh, you!
 ```
 
 ---
 
 ## ...pero no todo.
 
-"pitón
+```python
 
->>> importar functools
-Traceback (última llamada):
-    Archivo "<stdin>", línea 1, en <módulo>
-ImportError: ningún módulo llamado'functools'.
->>> Importar esto
-Traceback (última llamada):
-    Archivo "<stdin>", línea 1, en <módulo>
-ImportError: ningún módulo llamado `esto'.
+>>> import functools
+Traceback (most recent call last):
+    File "<stdin>", line 1, in <module>
+ImportError: no module named 'functools'
+>>> import this
+Traceback (most recent call last):
+    File "<stdin>", line 1, in <module>
+ImportError: no module named 'this'
 ```
 
 ---
@@ -920,10 +919,10 @@ ImportError: ningún módulo llamado `esto'.
 ## Módulos soportados
 
 - `sys`
-- `tiempo`
-- `struct`struct
-- Funciones de la máquina relacionadas con la placa
-- micropitos" - internos
+- `time`
+- `struct`
+- `machine` - Funciones de la máquina relacionadas con la placa
+- `micropython` - internos
 - Los puertos específicos proporcionan ganchos específicos, REPL y módulos personalizados
 
 ---
@@ -934,21 +933,21 @@ Escrito en Python (¿recuerdas PyPy?)
 
 ```sh
 
-micropython -m upip install micropython-functools
-Micropitón $ ./micropython 
-MicroPython v1.7-116-g8dd704b en 2016-04-19; versión linux
-Use Ctrl-D para salir, Ctrl-E para el modo de pegado
->>> importar functools
+$ micropython -m upip install micropython-functools
+$ ./micropython
+MicroPython v1.7-116-g8dd704b on 2016-04-19; linux version
+Use Ctrl-D to exit, Ctrl-E for paste mode
+>>> import functools
 >>> dir(functools)
-['__nombre__', 'reducir', 'parcial', 'update_wrapper', '__file__', 'wraps']
+['__name__', 'reduce', 'partial', 'update_wrapper', '__file__', 'wraps']
 https://github.com/micropython/micropython-lib
 ```
 
 ---
 
-## Soporta asincronía / espera sintaxis
+## Soporta sintaxis asincronía/espera
 
-"pitón
+```python
 
 async def ping_pygrunn():
     return await ping_server('pygrunn.org')
@@ -958,7 +957,7 @@ async def ping_pygrunn():
 
 # APIs de hardware
 
-<pequeño> .... para PyBoard y chips STM </pequeño>
+<small> .... para PyBoard y chips STM </small>
 
 --
 
@@ -973,11 +972,11 @@ async def ping_pygrunn():
 
 ## Ensamblador en línea - Devolver un valor
 
-"pitón
+```python
 
->>> micropantalla.asm_pulgar
+>>> @micropython.asm_thumb
 ... def fun():
-... movw(r0, 42)
+...     movw(r0, 42)
 ...
 >>> print(fun())
 ```
@@ -988,31 +987,28 @@ async def ping_pygrunn():
 
 ## Ensamblador en línea - periféricos
 
-"pitón
+```python
 
-@micropython.asm_pulgar
+@micropython.asm_thumb
 def led_on():
     movwt(r0, stm.GPIOA)
-    movw(r1, 1 <<< 13)
-    strh(r1,[r0, stm.GPIO_BSRRL])
+    movw(r1, 1 << 13)
+    strh(r1, [r0, stm.GPIO_BSRRL])
 ```
 
 Encienda el LED rojo del PyBoard (es decir, PA13 high)
 
-> Constantes de PyBoard </small> `stm` - Constantes de PyBoard </small>
-<pequeño> `stm.GPIOA` - desplazamiento de la dirección de memoria a GPIOA </pequeño>
-> small> `movwt` mueve un 32-bit en el registro (`movw` + `movt`) </small>
-> GPIO_BSRRL` - STM32 Bit Set/Reset Register </small>
+> <small>`stm` - Constantes de PyBoard </small> > <small>`stm.GPIOA` - desplazamiento de dirección de memoria a GPIOA</small> > <small> `movwt` mueve un 32-bit al registro (`movw` + `movt`) </small> > <small>`GPIO_BSRRL` - STM32 Bit Registro de Cambio/reinicio</small>
 
 --
 
 ## Ensamblador en línea - Argumentos
 
-"pitón
+```python
 
->>> micropantalla.asm_pulgar
+>>> @micropython.asm_thumb
 ... def asm_add(r0, r1):
-... añadir(r0, r0, r1)
+...     add(r0, r0, r1)
 ...
 >>> asm_add(1, 2)
 3
@@ -1025,58 +1021,58 @@ Encienda el LED rojo del PyBoard (es decir, PA13 high)
 
 ## Ensamblador en línea - Flash LED r0 veces
 
-"pitón
+```python
 
-@micropython.asm_pulgar
+@micropython.asm_thumb
 def flash_led(r0):
-    # consigue la dirección de la GPIOA en r1
+    # get the GPIOA address in r1
     movwt(r1, stm.GPIOA)
 
     # get the bit mask for PA14 (the pin LED #2 is on)
-    movw(r2, 1 <<< 14)
+    movw(r2, 1 << 14)
     b(loop_entry)
-    etiqueta(loop1)
+    label(loop1)
 
-    # enciende el LED
-    strh(r2,[r1, stm.GPIO_BSRRL])
+    # encender el LED
+    strh(r2, [r1, stm.GPIO_BSRRL])
 
-    # Retrasa un poco #
+    # retrasar un poco
     movwt(r4, 5599900)
     label(delay_on)
     sub(r4, r4, 1)
     cmp(r4, 0)
     bgt(delay_on)
 
-    # Apaga el LED
-    strh(r2,[r1, stm.GPIO_BSRRH])
+    # apagar el LED
+    strh(r2, [r1, stm.GPIO_BSRRH])
 
-    # Retrasa un poco #
+    # retrasar un poco
     movwt(r4, 5599900)
     label(delay_off)
     sub(r4, r4, 1)
     cmp(r4, 0)
     bgt(delay_off)
 
-    # loop r0 veces
+    # ciclo r0 veces
     sub(r0, r0, 1)
     label(loop_entry)
     cmp(r0, 0)
-    bgt(bucle1)
+    bgt(loop1)
 ```
 
-- label(x)` - asignar etiqueta
-- b(x)` rama incondicional
-- bgt(x)`, `blt(x)`, .... rama condicional
+- `label(x)` - asignar etiqueta
+- `b(x)` rama incondicional
+- `bgt(x)`, `blt(x)`, ... rama condicional
 
 --
 
 ## Emisor de código nativo
 
-"pitón
+```python
 
-@micropython.nativo
+@micropython.native
 def foo(self, arg):
-    # código
+    # code
 ```
 
 Aproximadamente el doble de rápido, pero más grande binario
@@ -1085,30 +1081,30 @@ Aproximadamente el doble de rápido, pero más grande binario
 
 ## Viper es Python incrustada en tiempo real
 
-"pitón
+```python
 
 @micropython.viper
 def foo(self, arg: int) -> int:
-    # código
+    # code
 ```
 
 - Ahora en realidad llamado Zerynth y algo confuso
-- No totalmente conforme con las normas Código Python
+- No totalmente conforme con las normas de Código Python
 - Produce instrucciones para la máquina
 
 ---
 
-# Vamos entonces #
+# Vamos entonces!
 
 ---
 
-## Our hardware
+## Nuestro hardware
 
 [![](img/ardx-hardware-kit-closed.jpg)](http://www.seeedstudio.com/depot/ARDX-The-starter-kit-for-Arduino-p-1153.html)
 
 --
 
-## Our hardware
+## Nuestro hardware
 
 [![](img/ardx-hardware-kit-open.jpg)](http://www.seeedstudio.com/depot/ARDX-The-starter-kit-for-Arduino-p-1153.html)
 
@@ -1116,7 +1112,7 @@ def foo(self, arg: int) -> int:
 
 ## A los kits les puede faltar equipo
 
-------------
+---
 
 Si tiene problemas para encontrar un componente, háganoslo saber y le conseguiremos un reemplazo.
 
@@ -1134,31 +1130,31 @@ Siéntase libre de seleccionar los componentes que más le gusten y completar lo
 
 ## Componentes que estamos cubriendo
 
-- span style="color:yellow"> Programación en red con ESP8266 </span>
+- <span style="color:yellow"> Programación en red con ESP8266 </span>
 - LEDs (diodos emisores de luz)
 - Botones
 - Servos
-- Aplicaciones de IO con MQTTT
+- Aplicaciones de internet de las cosas IOT con MQTTT
 
 ---
 
 ## Redes (MicroPython en ESP8266)
 
 - Punto de acceso WiFi (AP)
-  * ESSID es de la forma MicroPython-xxxxxxxx (dirección MAC de su dispositivo)
-  * Restablecimiento de fábrica Contraseña ``micropythoN`` Contraseña
-  * Dirección IP `192.168.4.1`
+  - ESSID es de la forma MicroPython-xxxxxxxx (dirección MAC de su dispositivo)
+  - Restablecimiento de fábrica Contraseña `micropythoN`
+  - Dirección IP `192.168.4.1`
 - Interfaz de la estación
 
 ---
 
 ## Módulo de red
 
-"pitón
+```python
 
->>> red de importación
->>> WLAN(red.STA_IF)
->>> ap_if = red.WLAN(red.AP_IF)
+>>> import network
+>>> sta_if = network.WLAN(network.STA_IF)
+>>> ap_if = network.WLAN(network.AP_IF)
 
 ```
 
@@ -1166,12 +1162,12 @@ Siéntase libre de seleccionar los componentes que más le gusten y completar lo
 
 ## Estado de activación de la interfaz (red)
 
-"pitón
+```python
 
->>> sta_if.active(> sta_if.active()
-Falso
+>>> sta_if.active()
+False
 >>> ap_if.active()
-Verdadero
+True
 >>> ap_if.config('essid')
 MicroPython-04320781
 >>> ap_if.config(essid='micropy012')
@@ -1185,25 +1181,25 @@ Los valores devueltos son: Dirección IP, máscara de red, pasarela, DNS.
 
 ## Configuración de red - Parámetros
 
-| Parámetro | Tipo | Descripción | Descripción
-|---------------------|------------------------------------------|
-*mac* | bytes | Dirección MAC (bytes) | Dirección MAC (bytes)
-| Nombre del punto de acceso WiFi (cadena | cadena | nombre del punto de acceso WiFi)
-*canal* | int | Canal WiFi (entero) | Canal WiFi (entero)
-*Ocultos* *Bool* *Si el ESSID está oculto*
-Modo automático *authmode* | enum | Modo de autenticación soportado (ver `dir(network)`) || Modo de autenticación soportado
-| Contraseña* | cadena | Contraseña de acceso WiFi | Contraseña de acceso WiFi
+| Parámetro  | Tipo   | Descripción                                          |
+| ---------- | ------ | ---------------------------------------------------- |
+| _mac_      | bytes  | Dirección MAC (bytes)                                |
+| _essid_    | string | Nombre del punto de acceso WiFi (cadena)             |
+| _channel_  | int    | Canal WiFi (entero)                                  |
+| _hidden_   | bool   | Si el ESSID está oculto                              |
+| _authmode_ | enum   | Modo de autenticación soportado (ver `dir(network)`) |
+| _password_ | string | Contraseña de acceso WiFi                            |
 
 ---
 
 ## Configuración de red
 
-"pitón
+```python
 
 >>> sta_if.active(True)
 >>> sta_if.connect('cubantech', 'meet-ups')
->>> sta_if.isconnected() # Puede tardar un poco
-Verdadero
+>>> sta_if.isconnected() # Podria llevar un tiempo
+True
 >>> sta_if.ifconfig()
 ('192.168.0.2', '255.255.255.0', '192.168.0.1', '8.8.8.8')
 
@@ -1216,26 +1212,26 @@ Verdadero
 ##### ...de Internet.
 
 ```sh
-clon de git https://github.com/micropython/webrepl
+git clone https://github.com/micropython/webrepl
 ```
 
-[Descargar WebREPL de Internet] (https://github.com/micropython/webrepl)
+[Descargar WebREPL de Internet](https://github.com/micropython/webrepl)
 
-##### ...de CubanTech LAN.
+##### ...de CubanTech LAN
 
 ```sh
-clon de git ssh://git@git.cuban.tech:2222/micropython/webrepl.git
+git clone ssh://git@git.cuban.tech:2222/micropython/webrepl.git
 ```
 
-Descargar WebREPL desde LAN](http://git.cuban.tech/micropython/webrepl/repository/archive.tar.gz?ref=master)
+[Descargar WebREPL desde LAN](http://git.cuban.tech/micropython/webrepl/repository/archive.tar.gz?ref=master)
 
 ---
 
 ## Configurar el acceso a WebREPL (a través de USB)
 
-"pitón
+```python
 
-importar webrepl_setup
+import webrepl_setup
 ```
 
 - Siga las instrucciones y avisos en pantalla
@@ -1249,20 +1245,20 @@ importar webrepl_setup
 
 - Conectar al punto de acceso del ESP8266
 - Lanzar WebREPL
-  * Abra `webrepl.html` en su navegador
+  - Abra `webrepl.html` en su navegador
 - Haga clic en el botón "Conectar
-- Escribe la contraseña con `webrepl_setup` cuando se te pida 
+- Escribe la contraseña con `webrepl_setup` cuando se te pida
 
 ---
 
-## Tenemos WiFi #
+## Tenemos WiFi
 
-"pitón
+```python
 
->>> zócalo de importación
+>>> import socket
 ```
 
-¡¡¡Tenemos enchufes!!!!
+¡¡¡Tenemos sockets!!!!
 
 ---
 
@@ -1270,34 +1266,34 @@ importar webrepl_setup
 
 Estado de todos los pines GPIO
 
-"pitón
+```python
 
-máquina de importación
-pins =[machine.pin(i, machine.pin.IN) para i in (0, 2, 4, 5, 12, 13, 14, 15)]].
-html = """"<! DOCTYPE html>
-<html>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>))
-    <cabeza> <título>ESP8266 Pins</título> </cabeza>
-    cuerpo> <cuerpo>
+import machine
+pins = [machine.Pin(i, machine.Pin.IN) for i in (0, 2, 4, 5, 12, 13, 14, 15)]
+html = """<!DOCTYPE html>
+<html>
+    <head> <title>ESP8266 Pins</title> </head>
+    <body>
         <h1>ESP8266 Pins</h1>
-        <table border="1"> <tr><th>Pin</th><th>>Value</th></tr> %s </table>
+        <table border="1"> <tr><th>Pin</th><th>Value</th></tr> %s </table>
     </body>
 </html>
 """
 
-enchufe de importación
+import socket
 addr = socket.getaddrinfo('0.0.0.0', 80)[0][-1]
 s = socket.socket()
 s.bind(addr)
 s.listen(1)
 print('listening on', addr)
-mientras que True:
+while True:
     cl, addr = s.accept()
-    print('cliente conectado desde', addr) cl_file = cl.makefile('rwb', 0)
-    mientras que True:
-        line = fichero_cl.readline()
-        si no es línea o línea == b'\r\n':
-            romperse
-    filas = ['<tr><td>%s</td><td>%d</td></tr>' % (str(p), valor de p.p()) para p en pines] respuesta = html % '\n'.join(filas)
+    print('client connected from', addr) cl_file = cl.makefile('rwb', 0)
+    while True:
+        line = cl_file.readline()
+        if not line or line == b'\r\n':
+            break
+    rows = ['<tr><td>%s</td><td>%d</td></tr>' % (str(p), p.value()) for p in pins] response = html % '\n'.join(rows)
     cl.send(response)
     cl.close()
 ```
@@ -1307,52 +1303,52 @@ mientras que True:
 ## Componentes que estamos cubriendo
 
 - Programación en red con ESP8266
-- LEDs (diodos emisores de luz) <span style="color:yellow"> LEDs (diodos emisores de luz) </span>
+- <span style="color:yellow"> LEDs (diodos emisores de luz) </span>
 - Botones
 - Servos
-- Aplicaciones de IO con MQTTT
+- Aplicaciones de Internet de las cosas (IoT) con MQTTT
 
 ---
 
 ## LEDs
 
-#### <span class="redled">LIGHT</span> <span class="green-led">EMITTING</span> <span class="blue-led">DIODES</span>
+#### <span class="redled">Luz</span> <span class="green-led">Emitiendo</span> <span class="blue-led">Diodos</span>
 
 ![](img/leds.jpg)
 
 ---
 
-## Pines LED de identificación
+## Pines de identificación de LEDs
 
-- La clavija larga es positiva (y se pone en marcha)
+- El pin largo es positivo (y se pone en marcha)
 - El pin corto es negativo (y va a tierra)
 
 ![](img/led-pin-diagram.png)
 
 ---
 
-## Paneras: Cableado sin soldadura
+## Breadboards: Cableado sin soldadura
 
-#### Los Panes nos permiten cablear rápidamente los componentes para hacer prototipos
+#### Los Breadboards nos permiten cablear rápidamente los componentes para hacer prototipos
 
 ![](img/breadboard.small.png)
 
 ---
 
-## Paneras: Conexiones eléctricas
+## Breadboards: Conexiones eléctricas
 
-- Aquí puedes ver cómo se conectan las diferentes filas y columnas.
-- Si no está claro, no dudes en buscar en Google o pedirle a un voluntario que te lo explique.
+- #### Aquí puedes ver cómo se conectan las diferentes filas y columnas.
+- #### Si no está claro, no dudes en buscar en Google o pedirle a un voluntario que te lo explique.
 
 ![](img/breadboard-diagram.small.jpg)
 
-## Usa tu protoboard y un par de cables (el color no importa) para construir esto
+## Usa tu breadboard y un par de cables (el color no importa) para construir esto
 
 ![](img/arduino-led-breadboard.png)
 
 ---
 
-## Build This - Pluma HUZZAH ESP8266
+## Construye esto - Feather HUZZAH ESP8266
 
 ![](img/feather.huzzah.led.png)
 
@@ -1372,33 +1368,33 @@ mientras que True:
 
 Ejecutar esta en (USB o web) REPL
 
-"pitón
-máquina de importación
-tiempo de importación
+```python
+import machine
+import time
 
-pin_id = 4 # NodeMCU
+pin_id = 4  # NodeMCU
             # PyBoard = 'A14'
-            # Pluma de Huzzah = 15
-led = machine.pin(pin_id, machine.Pin.OUT)
-mientras que True:
+            # Huzzah Feather = 15
+led = machine.Pin(pin_id, machine.Pin.OUT)
+while True:
     led.high()
-    tiempo.de.sueño(0.5)
+    time.sleep(0.5)
     led.low()
-    tiempo.de.sueño(0.5)
+    time.sleep(0.5)
 ```
 
-Lazo de salida con `Ctrl-c``.
+Exit loop with `Ctrl-c`
 
 --
 
 ## LEDs incorporados (PyBoard)
 
-| Nombre físico | Nombre de la CPU | Descripción del LED | Nombre de la CPU
-|---------------|----------|-----------------|
-| P2 | B4  | LED azul|
-| P3 | A15 | LED amarillo|
-| P4 | A14 | LED verde |
-| P5 | A13 | LED rojo |
+| Nombre físico | Nombre de la CPU | Descripción del LED |
+| ------------- | ---------------- | ------------------- |
+| P2            | B4               | LED azul            |
+| P3            | A15              | LED amarillo        |
+| P4            | A14              | LED verde           |
+| P5            | A13              | LED rojo            |
 
 --
 
@@ -1423,19 +1419,19 @@ Lazo de salida con `Ctrl-c``.
 
 --
 
-"pitón
-máquina de importación
-tiempo de importación
+```python
+import machine
+import time
 
-pin_id = 4 # NodeMCU
+pin_id = 4  # NodeMCU
             # PyBoard = 'A14'
-            # Pluma de Huzzah = 15
-led = machine.pin(pin_id, machine.Pin.OUT)
-mientras que True:
+            # Huzzah Feather = 15
+led = machine.Pin(pin_id, machine.Pin.OUT)
+while True:
     led.high()
-    tiempo.sueño(3.0)
+    time.sleep(3.0)
     led.low()
-    tiempo.sueño(3.0)
+    time.sleep(3.0)
 ```
 
 ---
@@ -1451,7 +1447,7 @@ Ahora que tiene los fundamentos de los LEDs, puede pasar al siguiente componente
 
 ## Desafíos del LED
 
-*¡Intenta resolverlos tú mismo antes de mirar la solución!*
+_¡Intenta resolverlos tú mismo antes de mirar la solución!_
 
 Pulse &darr; para desplazarse por los siguientes retos (y posibles soluciones)
 
@@ -1482,7 +1478,6 @@ var five = require("johnny-five");
 var board = new five.Board();
 
 board.on("ready", function() {
-
   var led1 = new five.Led(10);
   var led2 = new five.Led(11);
   var flag = false;
@@ -1539,7 +1534,7 @@ board.on("ready", function() {
   var setting = 0;
 
   setInterval(function() {
-    led.stop();  // If we call pulse, we need to stop it
+    led.stop(); // If we call pulse, we need to stop it
     switch (setting) {
       case 0:
         led.pulse();
@@ -1582,7 +1577,7 @@ board.on("ready", function() {
   var setting = 0;
 
   function changeSetting() {
-    led.stop();  // If we call pulse, we need to stop it
+    led.stop(); // Si llamamos al pulso, tenemos que detenerlo
     switch (setting) {
       case 0:
         led.pulse();
@@ -1598,14 +1593,14 @@ board.on("ready", function() {
   }
 
   this.repl.inject({
-    cs: changeSetting  // Now we can call cs() from the REPL
+    cs: changeSetting // Ahora podemos llamar a cs() desde el REPL
   });
 });
 ```
 
 --
 
-### Potencial solución de Bonus 2 para luces navideñas
+### Potencial solución para luces navideñas Bonus 2
 
 ¡Estás por tu cuenta en esto!
 
@@ -1613,7 +1608,7 @@ board.on("ready", function() {
 
 ### 3. Contador binario
 
-Usando 3 LEDs, cuente de 0 a 7 en binario como se muestra a continuación. On representa 1 y off repesentes 0.
+Usando 3 LEDs, cuente de 0 a 7 en binario como se muestra a continuación. Encendido(On) representa 1 y Apagado(off) repesentes 0.
 
 ![](img/binary-counter.gif)
 
@@ -1628,7 +1623,6 @@ Usando 3 LEDs, cuente de 0 a 7 en binario como se muestra a continuación. On re
 ### Solución de contador binaria potencial (alt 1) - Código
 
 ```js
-
 var five = require("johnny-five");
 var board = new five.Board();
 
@@ -1639,9 +1633,9 @@ board.on("ready", function() {
   var num = 0;
 
   setInterval(function() {
-    var binary = (num).toString(2);
+    var binary = num.toString(2);
 
-    binary.slice(-1)     === "1" ? led1.on() : led1.off();
+    binary.slice(-1) === "1" ? led1.on() : led1.off();
     binary.slice(-2, -1) === "1" ? led2.on() : led2.off();
     binary.slice(-3, -2) === "1" ? led3.on() : led3.off();
 
@@ -1655,7 +1649,6 @@ board.on("ready", function() {
 ### Solución de contador binaria potencial (alt 2) - Código
 
 ```js
-
 var five = require("johnny-five");
 var board = new five.Board();
 
@@ -1668,7 +1661,7 @@ board.on("ready", function() {
 
     for (var i = 0; i < leds.length; ++i, mask <<= 1) {
       var led = led[i];
-      num & mask? led.on() : led.off();
+      num & mask ? led.on() : led.off();
     }
 
     num = (num + 1) % 8;
@@ -1694,7 +1687,7 @@ Permite al usuario introducir un número a través de la REPL y mostrarlo en bin
 
 - Programación en red con ESP8266
 - LEDs (diodos emisores de luz)
-- style="color: amarillo">Botones </span>
+- <span style="color: yellow">Botones </span>
 - Servos
 - Aplicaciones de IO con MQTTT
 
@@ -1706,7 +1699,7 @@ Permite al usuario introducir un número a través de la REPL y mostrarlo en bin
 
 ---
 
-## Build This
+## Construye Esto
 
 ![](img/button-hardware.png)
 
@@ -1756,6 +1749,7 @@ Botón liberado!
 ```
 
 ---
+
 ## ¡Añadamos un LED!
 
 ![](img/button-led-hardware.png)
@@ -1920,11 +1914,11 @@ board.on("ready", function() {
 - Programación en red con ESP8266
 - LEDs (diodos emisores de luz)
 - Botones
-- estilo <span="color: amarillo"> Servos </span>
+- <span style="color: yellow"> Servos </span>
 
 ---
 
-## <span class="spin">S</span><span class="spin">E</span><span class="spin">R</span><span class="spin">V</span><span class="spin">O</span><span class="spin">S</span>.
+## <span class="spin">S</span><span class="spin">E</span><span class="spin">R</span><span class="spin">V</span><span class="spin">O</span><span class="spin">S</span>
 
 ![](img/servo.jpg)
 
@@ -1936,7 +1930,7 @@ Toma tu servo y añádele uno de los adjuntos.
 
 ---
 
-## Build This
+## Construye esto
 
 ![](img/servo-hardware.png)
 
@@ -1945,7 +1939,6 @@ Toma tu servo y añádele uno de los adjuntos.
 ## Guarda esto en un archivo y ejecútalo
 
 ```js
-
 var five = require("johnny-five");
 var board = new five.Board();
 
@@ -1966,12 +1959,11 @@ board.on("ready", function() {
 Escribe estos comandos en la REPL y observa cómo reacciona el servo
 
 ```js
+> servo.to(10);   // muevete a 10 grados
 
-> servo.to(10);   // Move to 10 degrees
+> servo.to(200);  // muevete a 200 grados
 
-> servo.to(200);  // Move to 200 degrees
-
-> servo.value;    // Get current position
+> servo.value;    // Obtener posición actual
 
 > servo.min();
 
@@ -1997,7 +1989,7 @@ Pulse &darr; para desplazarse por los desafíos de los servos
 
 ## Servo Challenges
 
-*¡Intenta resolverlos tú mismo antes de mirar la solución!*
+_¡Intenta resolverlos tú mismo antes de mirar la solución!_
 
 Pulse &darr; para desplazarse por los siguientes retos (y posibles soluciones)
 
@@ -2063,7 +2055,6 @@ Haz que al presionar el botón de flecha izquierda gire el servo en una direcci�
 ### Solución de flechas potenciales - Código
 
 ```js
-
 var five = require("johnny-five");
 var keypress = require("keypress");
 var board = new five.Board();
@@ -2093,7 +2084,7 @@ Haz que el servo barra mientras se mantiene pulsado un botón
 
 ![](img/servo-sweep.gif)
 
--- 
+--
 
 ### Potencial Solución de Botón - Hardware
 
@@ -2104,7 +2095,6 @@ Haz que el servo barra mientras se mantiene pulsado un botón
 ### Potencial Solución de Botón - Código
 
 ```js
-
 var five = require("johnny-five");
 var board = new five.Board();
 
@@ -2124,15 +2114,12 @@ board.on("ready", function() {
 
 ---
 
-Uh oh oh! Nos quedamos sin toboganes! Siéntase libre de probar algunos de los otros componentes de su kit mientras nosotros añadimos más!
+Uh oh oh! Nos quedamos sin Diapositivas! Siéntase libre de probar algunos de los otros componentes de su kit mientras nosotros añadimos más!
 
 ---
 
-## Winding Up
+## Liquidacion
 
 - Gracias por venir!
 - Nos encantaría conocer su opinión: [bit.ly/cubantech-nodebots-feedback](http://bit.ly/nodebots-feedback)
 - Por favor, guarde los kits (puede comprar los suyos propios[aquí](http://www.seeedstudio.com/depot/ARDX-The-starter-kit-for-Arduino-p-1153.html))
-
-
-
