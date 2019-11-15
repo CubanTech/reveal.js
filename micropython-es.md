@@ -293,34 +293,33 @@ LoRa + Python
 
 ## Feather M0 Express
 
-|     |                                                                          |
-| --- | ------------------------------------------------------------------------ |
-|     | [![](img/feather.m0.express.png)](https://www.adafruit.com/product/3403) |  | <div style="width: 400px; display:inline-block"> ![](img/adafruit.logo.jpg) </div> |  | }. |
+|                                                                          |                                                                                    |
+| ------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
+| [![](img/feather.m0.express.png)](https://www.adafruit.com/product/3403) | <div style="width: 400px; display:inline-block"> ![](img/adafruit.logo.jpg) </div> |
 
 --
 
 ## Feather M0 con radio
 
-|                                                                       |                                                                                                                                      |
-| --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| [img/feather.m0.lora.png]                                             |                                                                                                                                      | [](img/feather.m0.rfm69hcw.png) |
-| RFM59 LoRA -[900 MHz](https://www.adafruit.com/product/3178) </small> | <small> Packet Radio[433 MHz](https://www.adafruit.com/product/3177),[868 o 915 MHz](https://www.adafruit.com/product/3176) </small> |
+|                                                                                |                                                                                                                                         |
+| ------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------- |
+| ![](img/feather.m0.lora.png)                                                   | ![](img/feather.m0.rfm69hcw.png)                                                                                                        |
+| <small> RFM59 LoRA - [900 MHz](https://www.adafruit.com/product/3178) </small> | <small> Packet Radio [433 MHz](https://www.adafruit.com/product/3177), [868 or 915 MHz](https://www.adafruit.com/product/3176) </small> |
 
 --
 
 ## Feather M0 wireless
 
-|                                   |                                   |
-| --------------------------------- | --------------------------------- |
-| [](img/feather.m0.atwinc1500.png) | ![](img/feather.m0.bluefruit.png) |
-
-| https://www.adafruit.com/product/3010 DIFUNDE LA PALABRA-
+|                                                                |                                                            |
+| -------------------------------------------------------------- | ---------------------------------------------------------- |
+| ![](img/feather.m0.atwinc1500.png)                             | ![](img/feather.m0.bluefruit.png)                          |
+| <small> [WiFi](https://www.adafruit.com/product/3010) </small> | <small> [Bluetooth](https://www.adafruit.com/product/2995) |
 
 --
 
 ## Feather M0 Express - especificaciones
 
-- Llave de almacenamiento USB[cargador de arranque UF2](https://learn.adafruit.com/adafruit-feather-m0-express-designed-for-circuit-python-circuitpython/uf2-bootloader)
+- Memoria USB [cargador de arranque UF2](https://learn.adafruit.com/adafruit-feather-m0-express-designed-for-circuit-python-circuitpython/uf2-bootloader)
 - ATSAMD21G18 @ 48MHz con lógica/potencia de 3.3V
 - 256 KB de FLASH + 32 KB de RAM
 - Cristal de 32.768 KHz para la generación de relojes y RTC
@@ -447,7 +446,7 @@ LoRa + Python
 
 - regulador de voltaje (se pega a 4V a 6V)
   - [Diodos Schottky](https://en.wikipedia.org/wiki/Schottky_diode) para tensiones variables
-- **VBat\*** Batería Lipoly
+- **VBat** Batería Lipoly
 - **V+** : 5V (FTDI/cabecera en serie)
 
 --
@@ -657,7 +656,7 @@ Tarjeta programable CircuitPython de bajo costo!
 
 ## NodeMCU v2 (por ejemplo, DoIT.am)
 
-<div style="display:inline-block; color de fondo: #fff">![](img/nodemcu.v2.doit.pinout.png) </div>
+<div style="display:inline-block; background: #fff">![](img/nodemcu.v2.doit.pinout.png) </div>
 
 --
 
@@ -678,7 +677,6 @@ Zero conf
 ## Cómo empezar ESP8266
 
 ```sh
-
 pip install esptool
 ```
 
@@ -705,7 +703,6 @@ UDEV  [1504678146.774556] add      /bus/usb/drivers/ch341 (drivers)
 UDEV  [1504678146.774614] add      /devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1.2/2-1.2:1.0 (usb)
 UDEV  [1504678146.775507] add      /devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1.2/2-1.2:1.0/ttyUSB0 (usb-serial)
 UDEV  [1504678146.803046] add      /devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1.2/2-1.2:1.0/ttyUSB0/tty/ttyUSB0 (tty)
-
 ```
 
 --
@@ -713,10 +710,8 @@ UDEV  [1504678146.803046] add      /devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1
 ### Identificar USB - Mac OS X
 
 ```sh
-
 ls /dev/cu*serial*
 /dev/cu.wchusbserial1410
-
 ```
 
 --
@@ -724,7 +719,6 @@ ls /dev/cu*serial*
 ## Borrar y desplegar firmware
 
 ```sh
-
 esptool.py --port /dev/ttyUSB0 borrar_flash
 esptool.py --port /dev/ttyUSB0 --baud 460800 write_flash --flash_size=detect 0 esp8266-20170526-v1.9.bin
 ```
@@ -791,7 +785,6 @@ esptool.py --port /dev/ttyUSB0 --baud 460800 write_flash --flash_size=detect -fm
 ## Flash con BOSSAC
 
 ```sh
-
 $ bossac -e -w -v -R ~/Downloads/adafruit-circuitpython-circuitplayground_express-1.0.0.0.bin
 ```
 
@@ -810,27 +803,27 @@ $ bossac -e -w -v -R ~/Downloads/adafruit-circuitpython-circuitplayground_expres
 ### Identificar y conectar a través de USB - GNU/Linux
 
 <small>
+
 ```sh
-Monitor de udevadm --udev
-imprimirá los eventos recibidos:
-UDEV - el evento que udev envía después del procesamiento de reglas
+$ udevadm monitor --udev
+monitor will print the received events for:
+UDEV - the event which udev sends out after rule processing
 
-UDEV [1504678146.578976] add /devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1.2 (usb)
-UDEV [1504678146.746860] add /module/usbserial (module)
-UDEV [1504678146.747288] add /bus/usb-serial (bus)
-UDEV [1504678146.747855] add /bus/usb/drivers/usbserial (drivers)
-UDEV [1504678146.748149] add /bus/usb/drivers/usbserial_generic (drivers)
-UDEV [1504678146.748241] add /bus/usb-serial/drivers/generic (drivers)
-UDEV [1504678146.772466] add /module/ch341 (module)
-UDEV [1504678146.772783] add /bus/usb-serial/drivers/ch341-uart (drivers)
-UDEV [1504678146.774556] add /bus/usb/drivers/ch341 (drivers)
-UDEV [1504678146.774614] add /devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1.2/2-1.2:1.0 (usb)
-UDEV [1504678146.775507] add /devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1.2/2-1.2:1.0/ttyUSB0 (usb-serial)
-UDEV [1504678146.803046] add /devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1.2/2-1.2:1.0/ttyUSB0/tty/ttyUSB0 (tty)
+UDEV  [1504678146.578976] add      /devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1.2 (usb)
+UDEV  [1504678146.746860] add      /module/usbserial (module)
+UDEV  [1504678146.747288] add      /bus/usb-serial (bus)
+UDEV  [1504678146.747855] add      /bus/usb/drivers/usbserial (drivers)
+UDEV  [1504678146.748149] add      /bus/usb/drivers/usbserial_generic (drivers)
+UDEV  [1504678146.748241] add      /bus/usb-serial/drivers/generic (drivers)
+UDEV  [1504678146.772466] add      /module/ch341 (module)
+UDEV  [1504678146.772783] add      /bus/usb-serial/drivers/ch341-uart (drivers)
+UDEV  [1504678146.774556] add      /bus/usb/drivers/ch341 (drivers)
+UDEV  [1504678146.774614] add      /devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1.2/2-1.2:1.0 (usb)
+UDEV  [1504678146.775507] add      /devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1.2/2-1.2:1.0/ttyUSB0 (usb-serial)
+UDEV  [1504678146.803046] add      /devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1.2/2-1.2:1.0/ttyUSB0/tty/ttyUSB0 (tty)
 
-\$ picocom /dev/ttyUSB0 -b115200
-
-````
+$ picocom /dev/ttyUSB0 -b115200
+```
 
 </small>
 
@@ -841,7 +834,6 @@ UDEV [1504678146.803046] add /devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1.2/2-1
 ### Identificar y conectar a través de USB - Mac OS X
 
 ```sh
-
 $ ls /dev/cu*serial*
 /dev/cu.wchusbserial1410
 
@@ -849,8 +841,7 @@ $ screen /dev/cu.wchusbserial1410 115200 -L
 MicroPython v1.9-8-gfcaadf92 on 2017-05-26; ESP module with ESP8266
 Type "help()" for more information.
 >>>
-
-````
+```
 
 ... El nombre del dispositivo puede no ser `/dev/cu.wchusbserial1410`.
 
@@ -879,7 +870,6 @@ Type "help()" for more information.
 ## ¡Es Python! (3.4-ish)
 
 ```python
-
 >>> print('Hola mundo!')
 Hola mundo!
 
@@ -903,7 +893,6 @@ Oh, you!
 ## ...pero no todo.
 
 ```python
-
 >>> import functools
 Traceback (most recent call last):
     File "<stdin>", line 1, in <module>
@@ -932,7 +921,6 @@ ImportError: no module named 'this'
 Escrito en Python (¿recuerdas PyPy?)
 
 ```sh
-
 $ micropython -m upip install micropython-functools
 $ ./micropython
 MicroPython v1.7-116-g8dd704b on 2016-04-19; linux version
@@ -945,10 +933,9 @@ https://github.com/micropython/micropython-lib
 
 ---
 
-## Soporta sintaxis asincronía/espera
+## Soporta sintaxis asíncrona/en espera
 
 ```python
-
 async def ping_pygrunn():
     return await ping_server('pygrunn.org')
 ```
@@ -973,7 +960,6 @@ async def ping_pygrunn():
 ## Ensamblador en línea - Devolver un valor
 
 ```python
-
 >>> @micropython.asm_thumb
 ... def fun():
 ...     movw(r0, 42)
@@ -988,7 +974,6 @@ async def ping_pygrunn():
 ## Ensamblador en línea - periféricos
 
 ```python
-
 @micropython.asm_thumb
 def led_on():
     movwt(r0, stm.GPIOA)
@@ -998,7 +983,10 @@ def led_on():
 
 Encienda el LED rojo del PyBoard (es decir, PA13 high)
 
-> <small>`stm` - Constantes de PyBoard </small> > <small>`stm.GPIOA` - desplazamiento de dirección de memoria a GPIOA</small> > <small> `movwt` mueve un 32-bit al registro (`movw` + `movt`) </small> > <small>`GPIO_BSRRL` - STM32 Bit Registro de Cambio/reinicio</small>
+> - <small>`stm` - Constantes de PyBoard </small>
+> - <small>`stm.GPIOA` - desplazamiento de dirección de memoria a GPIOA </small>
+> - <small> `movwt` mueve un 32-bit al registro (`movw` + `movt`) </small>
+> - <small>`GPIO_BSRRL` - STM32 Bit Registro de Cambio/reinicio </small>
 
 --
 
@@ -1033,27 +1021,27 @@ def flash_led(r0):
     b(loop_entry)
     label(loop1)
 
-    # encender el LED
+    # turn LED on
     strh(r2, [r1, stm.GPIO_BSRRL])
 
-    # retrasar un poco
+    # delay for a bit
     movwt(r4, 5599900)
     label(delay_on)
     sub(r4, r4, 1)
     cmp(r4, 0)
     bgt(delay_on)
 
-    # apagar el LED
+    # turn LED off
     strh(r2, [r1, stm.GPIO_BSRRH])
 
-    # retrasar un poco
+    # delay for a bit
     movwt(r4, 5599900)
     label(delay_off)
     sub(r4, r4, 1)
     cmp(r4, 0)
     bgt(delay_off)
 
-    # ciclo r0 veces
+    # loop r0 times
     sub(r0, r0, 1)
     label(loop_entry)
     cmp(r0, 0)
@@ -1151,7 +1139,6 @@ Siéntase libre de seleccionar los componentes que más le gusten y completar lo
 ## Módulo de red
 
 ```python
-
 >>> import network
 >>> sta_if = network.WLAN(network.STA_IF)
 >>> ap_if = network.WLAN(network.AP_IF)
@@ -1163,7 +1150,6 @@ Siéntase libre de seleccionar los componentes que más le gusten y completar lo
 ## Estado de activación de la interfaz (red)
 
 ```python
-
 >>> sta_if.active()
 False
 >>> ap_if.active()
@@ -1195,7 +1181,6 @@ Los valores devueltos son: Dirección IP, máscara de red, pasarela, DNS.
 ## Configuración de red
 
 ```python
-
 >>> sta_if.active(True)
 >>> sta_if.connect('cubantech', 'meet-ups')
 >>> sta_if.isconnected() # Podria llevar un tiempo
@@ -1230,7 +1215,6 @@ git clone ssh://git@git.cuban.tech:2222/micropython/webrepl.git
 ## Configurar el acceso a WebREPL (a través de USB)
 
 ```python
-
 import webrepl_setup
 ```
 
@@ -1254,7 +1238,6 @@ import webrepl_setup
 ## Tenemos WiFi
 
 ```python
-
 >>> import socket
 ```
 
@@ -1267,7 +1250,6 @@ import webrepl_setup
 Estado de todos los pines GPIO
 
 ```python
-
 import machine
 pins = [machine.Pin(i, machine.Pin.IN) for i in (0, 2, 4, 5, 12, 13, 14, 15)]
 html = """<!DOCTYPE html>
@@ -1383,7 +1365,7 @@ while True:
     time.sleep(0.5)
 ```
 
-Exit loop with `Ctrl-c`
+salida del Bucle con `Ctrl-c`
 
 --
 
@@ -1799,7 +1781,7 @@ Ahora que tiene los conceptos básicos de los botones, puede pasar al siguiente 
 
 ## Desafíos de los botones
 
-*¡Intenta resolverlos tú mismo antes de mirar la solución!*
+_¡Intenta resolverlos tú mismo antes de mirar la solución!_
 
 Pulse &darr; para desplazarse por los siguientes retos (y posibles soluciones)
 
@@ -1943,7 +1925,6 @@ var five = require("johnny-five");
 var board = new five.Board();
 
 board.on("ready", function() {
-
   var servo = new five.Servo(11);
 
   this.repl.inject({
@@ -2020,7 +2001,6 @@ var five = require("johnny-five");
 var board = new five.Board();
 
 board.on("ready", function() {
-
   var servo = new five.Servo(11);
   var min = servo.range[0];
   var max = servo.range[1];
@@ -2060,7 +2040,6 @@ var keypress = require("keypress");
 var board = new five.Board();
 
 board.on("ready", function() {
-
   var servo = new five.Servo(11);
 
   process.stdin.on("keypress", function(ch, key) {
