@@ -1,10 +1,8 @@
-
-
 ## Introduction to MicroPython
 
 #### These slides: [slides.cuban.tech/micropython.html](http://slides.cuban.tech/micropython.html)
 
-----------------
+---
 
 ### Wifi Info
 
@@ -65,8 +63,8 @@ MicroPython is a lean and fast implementation of the Python (version 3) programm
 
 - Kickstarted in November 2013
 - Original kickstarter ended April 2015
-  *  &pound;97,803 first campaign
-  * +&pound;200,000 in total
+  - &pound;97,803 first campaign
+  - +&pound;200,000 in total
 - Code open source : [github.com/micropython](https://github.com/micropython)
 
 ---
@@ -229,7 +227,7 @@ Gameplay , scores , team stats
 
 ## BBC Micro:Bit
 
-Supplied to *1 million* school children
+Supplied to _1 million_ school children
 
 - Online Python editor
 - Mobile app to upload code
@@ -285,38 +283,36 @@ LoRa + Python
 
 [![](img/lora.logo.white.png)](https://www.lora-alliance.org/)
 
-- Long range, low power wireless platform 
+- Long range, low power wireless platform
 - Prevailing technology choice for building IoT networks worldwide.
 - +500 members
 - LoRaWAN<sup>&#153;</sup> Protocol Deployments
-  * Low Power WAN (LPWAN) specification for wireless battery operated Things
+  - Low Power WAN (LPWAN) specification for wireless battery operated Things
 
 ---
 
 ## Feather M0 Express
 
-|                             |                        |
-|-----------------------------|------------------------|
+|                                                                          |                                                                                    |
+| ------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
 | [![](img/feather.m0.express.png)](https://www.adafruit.com/product/3403) | <div style="width: 400px; display:inline-block"> ![](img/adafruit.logo.jpg) </div> |
-
-
 
 --
 
 ## Feather M0 with radio
 
-|                                    |                                                                       |
-|------------------------------------|-----------------------------------------------------------------------|
-| ![](img/feather.m0.lora.png) | ![](img/feather.m0.rfm69hcw.png) |
+|                                                                                |                                                                                                                                         |
+| ------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------- |
+| ![](img/feather.m0.lora.png)                                                   | ![](img/feather.m0.rfm69hcw.png)                                                                                                        |
 | <small> RFM59 LoRA - [900 MHz](https://www.adafruit.com/product/3178) </small> | <small> Packet Radio [433 MHz](https://www.adafruit.com/product/3177), [868 or 915 MHz](https://www.adafruit.com/product/3176) </small> |
 
 --
 
 ## Feather M0 wireless
 
-|                                    |                                                                       |
-|------------------------------------|-----------------------------------------------------------------------|
-| ![](img/feather.m0.atwinc1500.png) | ![](img/feather.m0.bluefruit.png) |
+|                                                                |                                                            |
+| -------------------------------------------------------------- | ---------------------------------------------------------- |
+| ![](img/feather.m0.atwinc1500.png)                             | ![](img/feather.m0.bluefruit.png)                          |
 | <small> [WiFi](https://www.adafruit.com/product/3010) </small> | <small> [Bluetooth](https://www.adafruit.com/product/2995) |
 
 --
@@ -347,7 +343,7 @@ LoRa + Python
 
 ![](img/feather.huzzah.small.png)
 
-... also runs on ESP8266 (i.e. a lot of) chips 
+... also runs on ESP8266 (i.e. a lot of) chips
 
 ---
 
@@ -359,8 +355,8 @@ LoRa + Python
 
 ## AMICA NodeMCU devkit
 
-|                               |                               |
-|-------------------------------|-------------------------------|
+|                               |                                 |
+| ----------------------------- | ------------------------------- |
 | ![](img/nodemcu.v1.amica.jpg) | ![](img/nodemcu.v1.amica.2.jpg) |
 
 ---
@@ -409,13 +405,13 @@ LoRa + Python
 
 ## Feather HUZZAH ESP8266 - specs
 
-- ESP8266 @ 80MHz or 160 MHz 
+- ESP8266 @ 80MHz or 160 MHz
 - 3.3V logic/power, 500mA peak current output
 - 4MB of FLASH (32 MBit)
 - CP2104 USB-Serial converter onboard
-  * 921600 max baudrate for uploading
+  - 921600 max baudrate for uploading
 - 9 GPIO pins
-  * can also be used as I2C and SPI
+  - can also be used as I2C and SPI
 - 1 x analog inputs 1.0V max
 
 --
@@ -436,11 +432,11 @@ LoRa + Python
 
 - 1 x Analog input (1.0V max)
 - 9 x GPIO (3.3V logic)
-  * Also used for I2C or SPI
+  - Also used for I2C or SPI
 - 2 x UART pins
 - 2 x 3-6V power inputs
-  * reset, enable, LDO-disable
-  * 3.3V output
+  - reset, enable, LDO-disable
+  - 3.3V output
 
 --
 
@@ -449,7 +445,7 @@ LoRa + Python
 ![](img/huzzah.breakout.pinout.power.png)
 
 - voltage regulator (stick to 4V to 6V)
-  * [Schottky diodes](https://en.wikipedia.org/wiki/Schottky_diode) for variable voltages
+  - [Schottky diodes](https://en.wikipedia.org/wiki/Schottky_diode) for variable voltages
 - **VBat** : Lipoly battery
 - **V+** : 5V ( FTDI/serial header )
 
@@ -468,8 +464,8 @@ LoRa + Python
 ![](img/huzzah.breakout.pinout.gpio.png)
 
 - No pull-up in **#0**
-- 3.3V logic 
-  * max current drawn : 12mA.
+- 3.3V logic
+  - max current drawn : 12mA.
 - [Full spec sheet](http://www.adafruit.com/datasheets/ESP8266_Specifications_English.pdf)
 
 --
@@ -481,14 +477,14 @@ LoRa + Python
 - **A** : analog input ( 0 - 1.0V )
 - **LDO** : connect to **GND** to turn 3.3V regulator off
 - **RST** ( 5V ) **EN** ( 3.3V )
-  * down to **GND** to reset ESP8266
+  - down to **GND** to reset ESP8266
 
 ---
 
 ## CircuitPython
 
-|                             |                        |
-|-----------------------------|------------------------|
+|                                 |                            |
+| ------------------------------- | -------------------------- |
 | ![](img/circuitpython.logo.png) | ![](img/adafruit.logo.jpg) |
 
 ---
@@ -512,13 +508,13 @@ LoRa + Python
 ### Circuit Playground Express board - features
 
 - ATSAMD21 ARM Cortex M0 Processor
-  * 3.3V and 48MHz
+  - 3.3V and 48MHz
 - 2 MB of SPI Flash storage
 - MicroUSB port
-  * Programming and debugging
-  * serial port
-  * keyboard, mouse
-  * joystick or MIDI
+  - Programming and debugging
+  - serial port
+  - keyboard, mouse
+  - joystick or MIDI
 
 --
 
@@ -526,11 +522,11 @@ LoRa + Python
 
 - 10 x mini NeoPixels
 - 1 x Motion sensor (LIS3DH)
-  * Triple-axis accelerometer
-  * Tap and free-fall detection
+  - Triple-axis accelerometer
+  - Tap and free-fall detection
 - 1 x Temperature sensor (thermistor)
 - 1 x Light sensor (phototransistor).
-  * Color sensor and pulse sensor.
+  - Color sensor and pulse sensor.
 
 --
 
@@ -540,9 +536,9 @@ LoRa + Python
 - 1 x Mini speaker with class D amplifier
 - 2 x Push buttons
 - Infrared receiver and transmitter
-  * Receive and transmit any remote control codes
-  * Send messages between Circuit Playground Expresses
-  * Proximity sensor.
+  - Receive and transmit any remote control codes
+  - Send messages between Circuit Playground Expresses
+  - Proximity sensor.
 
 --
 
@@ -568,7 +564,7 @@ Lowest-cost CircuitPython programmable board!
 
 - Same size, form-factor, and pinout as classic Trinket
 - ATSAMD21E18 32-bit Cortex M0+ Atmel ATSAMD21 microcontroller <span style="color:yellow">(ATtiny85 8-bit AVR)</span>
-  * 48 MHz 32 bit processor <span style="color:yellow">(+6x faster)</span>
+  - 48 MHz 32 bit processor <span style="color:yellow">(+6x faster)</span>
 - 256KB Flash <span style="color:yellow">(8KB &rArr; 32x)</span>, 32 KB RAM <span style="color:yellow">(512B &rArr; 64x)</span>
 
 --
@@ -576,10 +572,10 @@ Lowest-cost CircuitPython programmable board!
 ## Trinket M0 - USB
 
 - Native USB supported by every OS <span style="color:yellow">(missing in Trinket)</span>
-  * Arduino IDE
-  * CircuitPython USB serial console
-  * Keyboard/Mouse HID
-  * ... even a little disk drive for storing Python scripts. 
+  - Arduino IDE
+  - CircuitPython USB serial console
+  - Keyboard/Mouse HID
+  - ... even a little disk drive for storing Python scripts.
 
 --
 
@@ -598,7 +594,7 @@ Lowest-cost CircuitPython programmable board!
 <small class="lg"> ![](img/trinket.m0.small.png) </small>
 
 - Battery Input (tied to the BAT pin) to solder on a JST PH connector to power it from an external battery.
-  * Lithium Polymer battery or JST 3xAAA battery packs
+  - Lithium Polymer battery or JST 3xAAA battery packs
 - Protections : reverse-polarity, over-current and thermal.
 - Switch between USB and battery (highest voltage)
 
@@ -606,7 +602,7 @@ Lowest-cost CircuitPython programmable board!
 
 ## Wrapping up ...
 
-> <small> Checkout specs of your board &darr; ... and keep them open  </small>
+> <small> Checkout specs of your board &darr; ... and keep them open </small>
 
 --
 
@@ -660,7 +656,7 @@ Lowest-cost CircuitPython programmable board!
 
 ## NodeMCU v2 (e.g. DoIT.am)
 
-<div style="display:inline-block; background-color: #fff"> ![](img/nodemcu.v2.doit.pinout.png) </div>
+![](img/nodemcu.v2.doit.pinout.png)
 
 --
 
@@ -750,10 +746,10 @@ esptool.py --port /dev/ttyUSB0 --baud 460800 write_flash --flash_size=detect -fm
 ## Getting started - UF2 bootloader
 
 - Download UF2 image file
-  * e.g. [the latest CPX CircuitPython UF2](https://github.com/adafruit/circuitpython/releases/download/2.1.0/adafruit-circuitpython-circuitplayground_express-2.1.0.uf2) for Circuit Playground Express
+  - e.g. [the latest CPX CircuitPython UF2](https://github.com/adafruit/circuitpython/releases/download/2.1.0/adafruit-circuitpython-circuitplayground_express-2.1.0.uf2) for Circuit Playground Express
 - Plug your board into your computer using USB data cable
 - [**OPTIONAL**] Reset your board
-  * e.g. Double-click the small Reset button in the middle of the CPX
+  - e.g. Double-click the small Reset button in the middle of the CPX
 
 --
 
@@ -762,7 +758,7 @@ esptool.py --port /dev/ttyUSB0 --baud 460800 write_flash --flash_size=detect -fm
 ![](img/circuit_playground_greens.jpg)
 
 - Check your board is in bootloader mode
-  * e.g. all of the LEDs turn green in CPX
+  - e.g. all of the LEDs turn green in CPX
 
 --
 
@@ -771,7 +767,7 @@ esptool.py --port /dev/ttyUSB0 --baud 460800 write_flash --flash_size=detect -fm
 ![](img/circuit_playground_cplayboot.gif)
 
 - A new disk drive appears
-  * Name may vary e.g. `CPLAYBOOT` for CPX
+  - Name may vary e.g. `CPLAYBOOT` for CPX
 
 --
 
@@ -787,9 +783,9 @@ esptool.py --port /dev/ttyUSB0 --baud 460800 write_flash --flash_size=detect -fm
 
 - Download BIN image files e.g. [latest BIN for CPX](https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/circuitplayground_express/)
 - Download [latest version of bossac](https://github.com/shumatech/BOSSA/releases/latest)
-  * `mingw32` for Windows, `apple-darwin` for Mac OSX, and several `linux` options
+  - `mingw32` for Windows, `apple-darwin` for Mac OSX, and several `linux` options
 
--- 
+--
 
 ## Flash with BOSSAC
 
@@ -818,24 +814,25 @@ $ udevadm monitor --udev
 monitor will print the received events for:
 UDEV - the event which udev sends out after rule processing
 
-UDEV  [1504678146.578976] add      /devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1.2 (usb)
-UDEV  [1504678146.746860] add      /module/usbserial (module)
-UDEV  [1504678146.747288] add      /bus/usb-serial (bus)
-UDEV  [1504678146.747855] add      /bus/usb/drivers/usbserial (drivers)
-UDEV  [1504678146.748149] add      /bus/usb/drivers/usbserial_generic (drivers)
-UDEV  [1504678146.748241] add      /bus/usb-serial/drivers/generic (drivers)
-UDEV  [1504678146.772466] add      /module/ch341 (module)
-UDEV  [1504678146.772783] add      /bus/usb-serial/drivers/ch341-uart (drivers)
-UDEV  [1504678146.774556] add      /bus/usb/drivers/ch341 (drivers)
-UDEV  [1504678146.774614] add      /devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1.2/2-1.2:1.0 (usb)
-UDEV  [1504678146.775507] add      /devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1.2/2-1.2:1.0/ttyUSB0 (usb-serial)
-UDEV  [1504678146.803046] add      /devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1.2/2-1.2:1.0/ttyUSB0/tty/ttyUSB0 (tty)
+UDEV [1504678146.578976] add /devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1.2 (usb)
+UDEV [1504678146.746860] add /module/usbserial (module)
+UDEV [1504678146.747288] add /bus/usb-serial (bus)
+UDEV [1504678146.747855] add /bus/usb/drivers/usbserial (drivers)
+UDEV [1504678146.748149] add /bus/usb/drivers/usbserial_generic (drivers)
+UDEV [1504678146.748241] add /bus/usb-serial/drivers/generic (drivers)
+UDEV [1504678146.772466] add /module/ch341 (module)
+UDEV [1504678146.772783] add /bus/usb-serial/drivers/ch341-uart (drivers)
+UDEV [1504678146.774556] add /bus/usb/drivers/ch341 (drivers)
+UDEV [1504678146.774614] add /devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1.2/2-1.2:1.0 (usb)
+UDEV [1504678146.775507] add /devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1.2/2-1.2:1.0/ttyUSB0 (usb-serial)
+UDEV [1504678146.803046] add /devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1.2/2-1.2:1.0/ttyUSB0/tty/ttyUSB0 (tty)
 
-$ picocom /dev/ttyUSB0 -b115200
-```
+\$ picocom /dev/ttyUSB0 -b115200
+
+````
 </small>
 
-... not always `ttyUSB0` e.g. `ttyACM0` 
+... not always `ttyUSB0` e.g. `ttyACM0`
 
 --
 
@@ -851,7 +848,7 @@ MicroPython v1.9-8-gfcaadf92 on 2017-05-26; ESP module with ESP8266
 Type "help()" for more information.
 >>>
 
-```
+````
 
 ... The device name might not be `/dev/cu.wchusbserial1410`
 
@@ -871,7 +868,7 @@ Type "help()" for more information.
 
 ---
 
-# Excuse me ... 
+# Excuse me ...
 
 # What is MicroPython ?
 
@@ -935,7 +932,7 @@ Written in Python (remember PyPy?)
 ```sh
 
 $ micropython -m upip install micropython-functools
-$ ./micropython 
+$ ./micropython
 MicroPython v1.7-116-g8dd704b on 2016-04-19; linux version
 Use Ctrl-D to exit, Ctrl-E for paste mode
 >>> import functools
@@ -1116,7 +1113,7 @@ def foo(self, arg: int) -> int:
 
 ## Kits may be missing equipment
 
-------------
+---
 
 If you have trouble finding a component, let us know and we'll get you a replacement
 
@@ -1145,9 +1142,9 @@ Feel free to select the components you like most and complete the challenges tha
 ## Networking (MicroPython on ESP8266)
 
 - WiFi access point (AP)
-  * ESSID is of the form MicroPython-xxxxxx (MAC address of your device)
-  * Factory reset Password `micropythoN`
-  * IP address `192.168.4.1`
+  - ESSID is of the form MicroPython-xxxxxx (MAC address of your device)
+  - Factory reset Password `micropythoN`
+  - IP address `192.168.4.1`
 - Station interface
 
 ---
@@ -1186,13 +1183,13 @@ Returned values are: IP address, netmask, gateway, DNS.
 ## Network configuration - Parameters
 
 | Parameter  | Type   | Description                              |
-|---------------------|------------------------------------------|
-| *mac*      | bytes  | MAC address (bytes)                      |
-| *essid*    | string | WiFi access point name (string           |
-| *channel*  | int    | WiFi channel (integer)                   |
-| *hidden*   | bool   | Whether ESSID is hidden                  |
-| *authmode* | enum   | Auth mode supported (see `dir(network)`) |
-| *password* | string | WiFi access password                     |
+| ---------- | ------ | ---------------------------------------- |
+| _mac_      | bytes  | MAC address (bytes)                      |
+| _essid_    | string | WiFi access point name (string           |
+| _channel_  | int    | WiFi channel (integer)                   |
+| _hidden_   | bool   | Whether ESSID is hidden                  |
+| _authmode_ | enum   | Auth mode supported (see `dir(network)`) |
+| _password_ | string | WiFi access password                     |
 
 ---
 
@@ -1249,9 +1246,9 @@ import webrepl_setup
 
 - Connect to the ESP8266's access point
 - Launch WebREPL
-  * Open `webrepl.html` in your browser
+  - Open `webrepl.html` in your browser
 - Click the "Connect" button
-- Type the password set with `webrepl_setup` when prompted 
+- Type the password set with `webrepl_setup` when prompted
 
 ---
 
@@ -1394,7 +1391,7 @@ Exit loop with `Ctrl-c`
 ## Built-in LEDs (PyBoard)
 
 | Physical name | CPU name | LED description |
-|---------------|----------|-----------------|
+| ------------- | -------- | --------------- |
 | P2            | B4       | blue LED        |
 | P3            | A15      | yellow LED      |
 | P4            | A14      | green LED       |
@@ -1451,7 +1448,7 @@ Now that you've got the basics of LEDs, you can either move on to the next compo
 
 ## LED Challenges
 
-*Try to solve them yourself before looking at the solution!*
+_Try to solve them yourself before looking at the solution!_
 
 Press &darr; to scroll through the following challenges (and potential solutions)
 
@@ -1482,7 +1479,6 @@ var five = require("johnny-five");
 var board = new five.Board();
 
 board.on("ready", function() {
-
   var led1 = new five.Led(10);
   var led2 = new five.Led(11);
   var flag = false;
@@ -1539,7 +1535,7 @@ board.on("ready", function() {
   var setting = 0;
 
   setInterval(function() {
-    led.stop();  // If we call pulse, we need to stop it
+    led.stop(); // If we call pulse, we need to stop it
     switch (setting) {
       case 0:
         led.pulse();
@@ -1557,7 +1553,6 @@ board.on("ready", function() {
 ```
 
 --
-
 
 ### 2. Holiday Lights (Bonuses)
 
@@ -1583,7 +1578,7 @@ board.on("ready", function() {
   var setting = 0;
 
   function changeSetting() {
-    led.stop();  // If we call pulse, we need to stop it
+    led.stop(); // If we call pulse, we need to stop it
     switch (setting) {
       case 0:
         led.pulse();
@@ -1599,7 +1594,7 @@ board.on("ready", function() {
   }
 
   this.repl.inject({
-    cs: changeSetting  // Now we can call cs() from the REPL
+    cs: changeSetting // Now we can call cs() from the REPL
   });
 });
 ```
@@ -1629,7 +1624,6 @@ Using 3 LEDs, count from 0 to 7 in binary as shown below. On represents 1 and of
 ### Potential Binary Counter Solution (alt 1) - Code
 
 ```js
-
 var five = require("johnny-five");
 var board = new five.Board();
 
@@ -1640,9 +1634,9 @@ board.on("ready", function() {
   var num = 0;
 
   setInterval(function() {
-    var binary = (num).toString(2);
+    var binary = num.toString(2);
 
-    binary.slice(-1)     === "1" ? led1.on() : led1.off();
+    binary.slice(-1) === "1" ? led1.on() : led1.off();
     binary.slice(-2, -1) === "1" ? led2.on() : led2.off();
     binary.slice(-3, -2) === "1" ? led3.on() : led3.off();
 
@@ -1656,7 +1650,6 @@ board.on("ready", function() {
 ### Potential Binary Counter Solution (alt 2) - Code
 
 ```js
-
 var five = require("johnny-five");
 var board = new five.Board();
 
@@ -1669,7 +1662,7 @@ board.on("ready", function() {
 
     for (var i = 0; i < leds.length; ++i, mask <<= 1) {
       var led = led[i];
-      num & mask? led.on() : led.off();
+      num & mask ? led.on() : led.off();
     }
 
     num = (num + 1) % 8;
@@ -1807,7 +1800,7 @@ Now that you've got the basics of buttons, you can either move on to the next co
 
 ## Button Challenges
 
-*Try to solve them yourself before looking at the solution!*
+_Try to solve them yourself before looking at the solution!_
 
 Press &darr; to scroll through the following challenges (and potential solutions)
 
@@ -1947,12 +1940,10 @@ Take your servo and add one of the attachments to it
 ## Save this to a file and run it
 
 ```js
-
 var five = require("johnny-five");
 var board = new five.Board();
 
 board.on("ready", function() {
-
   var servo = new five.Servo(11);
 
   this.repl.inject({
@@ -1999,7 +1990,7 @@ Press &darr; to scroll through the servo challenges
 
 ## Servo Challenges
 
-*Try to solve them yourself before looking at the solution!*
+_Try to solve them yourself before looking at the solution!_
 
 Press &darr; to scroll through the following challenges (and potential solutions)
 
@@ -2030,7 +2021,6 @@ var five = require("johnny-five");
 var board = new five.Board();
 
 board.on("ready", function() {
-
   var servo = new five.Servo(11);
   var min = servo.range[0];
   var max = servo.range[1];
@@ -2065,13 +2055,11 @@ Make pressing the left arrow button rotate the servo one way and pressing the ri
 ### Potential Arrows Solution - Code
 
 ```js
-
 var five = require("johnny-five");
 var keypress = require("keypress");
 var board = new five.Board();
 
 board.on("ready", function() {
-
   var servo = new five.Servo(11);
 
   process.stdin.on("keypress", function(ch, key) {
@@ -2095,7 +2083,7 @@ Have the servo sweep while a button is held down
 
 ![](img/servo-sweep.gif)
 
--- 
+--
 
 ### Potential Button Solution - Hardware
 
@@ -2106,7 +2094,6 @@ Have the servo sweep while a button is held down
 ### Potential Button Solution - Code
 
 ```js
-
 var five = require("johnny-five");
 var board = new five.Board();
 
@@ -2135,6 +2122,3 @@ Uh oh! We ran out of slides! Feel free to try out some of the other components i
 - Thank you for coming!
 - We'd love your feedback: [bit.ly/cubantech-nodebots-feedback](http://bit.ly/nodebots-feedback)
 - Please put away kits (you can buy your own [here](http://www.seeedstudio.com/depot/ARDX-The-starter-kit-for-Arduino-p-1153.html))
-
-
-

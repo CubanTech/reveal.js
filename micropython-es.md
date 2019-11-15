@@ -656,7 +656,7 @@ Tarjeta programable CircuitPython de bajo costo!
 
 ## NodeMCU v2 (por ejemplo, DoIT.am)
 
-<div style="display:inline-block; background: #fff">![](img/nodemcu.v2.doit.pinout.png) </div>
+![](img/nodemcu.v2.doit.pinout.png)
 
 --
 
