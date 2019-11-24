@@ -1,6 +1,6 @@
 # Guía para colaboradores
 
-Por favor, mantenga el [gestor de incidencias](http://github.com/cubantech/slides.cuban.tech/issues) limitado a **informes de errores**, **solicitudes de funciones** y **solicitudes de pull**.
+Por favor, mantenga el [gestor de incidencias](http://github.com/cubantech/slides.cuban.tech/issues) limitado a **informes de errores**, **solicitudes de funciones** y **solicitudes de cambios**.
 
 ## Soporte personalizado
 
@@ -8,9 +8,9 @@ Si usted requiere de soporte personalizado o o tiene preguntas de configuración
 
 ## Informes de errores
 
-Al informar de un fallo, asegúrese de incluir información sobre el navegador y el sistema operativo en el que se encuentra, así como los pasos necesarios para reproducir el problema. Si es posible, incluya un enlace a una presentación de ejemplo donde se pueda probar el error.
+Al reportar una incidencia, asegúrese de incluir información sobre el navegador y el sistema operativo en el que se encuentra, así como los pasos necesarios para reproducir el problema. Si es posible, incluya un enlace a una presentación de ejemplo donde se pueda probar el error.
 
-## Pull Requests
+## Solicitudes de Cambios
 
 - Debe seguir el estilo de codificación del archivo en el que trabaja, lo más importante:
   - tabs para identar
