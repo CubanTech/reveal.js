@@ -26,7 +26,7 @@ Contraseña: meet-ups
 - Multiplexores
 - ALU
 - Biestable
-- Manos a la obra! Construir un pestillo SR
+- Manos a la obra! Construye un cierre SR
 
 ---
 
@@ -34,13 +34,13 @@ Contraseña: meet-ups
 
 ---
 
-## Our hardware
+## Nuestro hardware
 
 [![](img/hardware-kit-closed.jpg)](http://www.seeedstudio.com/depot/ARDX-The-starter-kit-for-Arduino-p-1153.html)
 
 ---
 
-## Our hardware
+## Nuestro hardware
 
 [![](img/hardware-kit-open.jpg)](http://www.seeedstudio.com/depot/ARDX-The-starter-kit-for-Arduino-p-1153.html)
 
@@ -65,7 +65,7 @@ Si tiene problemas para encontrar un componente, háganoslo saber y le conseguir
 - Puertas lógicas
 - Multiplexores
 - ALU
-- Bizcochos
+- Bistables
 
 ---
 
@@ -91,25 +91,25 @@ Siéntase libre de seleccionar los componentes que más le gusten y completar lo
 
 ---
 
-# Basic Gates
+# Puertas Basicas
 
 ---
 
-## Buffers
+## Buffers (regulador)
 
 ![](img/buffer.jpg)
 
 ---
 
-## NOT gate
+## Puerta NOT
 
 ![](img/not-gate.jpg)
 
-- La versión negada de **_a_** es **_/a_**.
+- La versión negada de **_a_** is **_/a_**
 
 ---
 
-## AND gate
+## Puerta AND
 
 ![](img/and-gate.jpg)
 
@@ -117,29 +117,29 @@ Siéntase libre de seleccionar los componentes que más le gusten y completar lo
 
 --
 
-## Y propiedades
+## Propiedades AND
 
-- **a** \N- **a** = **a\***
-- **a** \N- **1** = **a\***
-- **a** \N- **a\*** **a** = **0**
+- **a** \* **a** = **a**
+- **a** \* **1** = **a**
+- **a** \* **/a** = **0**
 - **a** \* **0** = **0**
 
 ---
 
-## OR gate
+## Puerta OR
 
 ![](img/or-gate.jpg)
 
-- No, no, no, no, no, no, no, no, no, no, no, no.
+- **_a_** OR **_b_** = **_a_** + **_b_**
 
 --
 
-## OR properties
+## Propiedades OR
 
-- **a** + **a** = **a\***
+- **a** + **a** = **a**
 - **a** + **0** = **a**
 - **a** + **1** = **1**
-- **a** + **a** = **1\***
+- **a** + **/a** = **1**
 
 ---
 
@@ -147,14 +147,14 @@ Siéntase libre de seleccionar los componentes que más le gusten y completar lo
 
 ![](img/xor-gate.jpg)
 
-- No, no, no, no, no, no, no, no, no, no, no, no.
+- **_a_** XOR **_b_** = **_a_** &#xA69A; **_b_**
 
 --
 
 ## Propiedades XOR
 
-- **a** &#xA69A; **a** = **0\***
-- **a** &#xA69A; **/a** = **1\***
+- **a** &#xA69A; **a** = **0**
+- **a** &#xA69A; **/a** = **1**
 - **a** &#xA69A; **0** = **a**
 - **a** &#xA69A; **1** = **/a**
 
@@ -164,8 +164,8 @@ Siéntase libre de seleccionar los componentes que más le gusten y completar lo
 
 ![](img/universal-gates.jpg)
 
-- NAND **_b_** = /(**_a_** \N- **_b_**)
-- No, no, no, no, no, no, no, no, no, no, no, no.
+- **_a_** NAND **_b_** = /(**_a_** \* **_b_**)
+- **_a_** NOR **_b_** = /(**_a_** + **_b_**)
 
 --
 
@@ -179,7 +179,7 @@ Siéntase libre de seleccionar los componentes que más le gusten y completar lo
 ## Las leyes de De Morgan
 
 - **/**(**a** + **b**) = **/a** \* **/b**
-- **/**(**a** \N- **b**) = **/a** + **/b**
+- **/**(**a** \* **b**) = **/a** + **/b**
 
 ---
 
@@ -215,7 +215,7 @@ Siéntase libre de seleccionar los componentes que más le gusten y completar lo
 
 ---
 
-## Construyendo el circuito desde la mesa de la verdad
+## Construyendo el circuito desde la tabla de verdad
 
 ![](img/ejemplo-digital-4.jpg)
 
@@ -278,16 +278,16 @@ Tomemos la combinación **1 0 0**
 - B = 0 (no es igual a S => negado)
 - C = 0 (no es igual a S => negado)
 
-Así será el término canónico: _A_ /B* /C* /C\*
+Así será el término canónico: **A \* /B \* /C**
 
 --
 
 ## Una suma de productos (ejemplo)
 
-Para la combinación **1 1 0** el término canónico es: \*\*A, B, C Y C.
+Para la combinación **1 1 0** el término canónico es: **A \* B \* /C**
 
-- La suma de los productos canónicos de la mesa es:
-  - (**A \* /B \* /C**) + (**A \* /B \* /C**) + (**A \* B \* /C**) + (**A \* B \* C**)
+- La suma de los productos canónicos de la tabla es:
+  - (**/A \* /B \* /C**) + (**A \* /B \* /C**) + (**A \* B \* /C**) + (**A \* B \* C**)
 
 --
 
@@ -329,23 +329,23 @@ Para la combinación **1 1 0** el término canónico es: \*\*A, B, C Y C.
 
 --
 
-## From here....
+## De aquí....
 
-- NO se puede obtener de la propiedad:
+- NOT se puede obtener de la propiedad:
   - **/a** = **/(a + a)**
 - Usando las leyes de De Morgan....
 
 --
 
-## We obtain this....
+## Obtenemos esto....
 
 ![](img/ejemplo-digital-9.jpg)
 
 ---
 
-## Challenge #1
+## Desafío #1
 
-### Vamos a crear una víbora de 1 bit (media víbora)
+### Vamos a crear un sumador de 1-bits (medio sumador)
 
 - A + B
 

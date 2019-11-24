@@ -1,10 +1,10 @@
-# Contribuyendo
+# Guía para colaboradores
 
-Por favor, mantenga el [seguidor de problemas](http://github.com/hakimel/reveal.js/issues) limitado a **informes de errores**, **solicitudes de funciones** y **solicitudes de pull**.
+Por favor, mantenga el [gestor de incidencias](http://github.com/cubantech/slides.cuban.tech/issues) limitado a **informes de errores**, **solicitudes de funciones** y **solicitudes de pull**.
 
-## Apoyo personal
+## Soporte personalizado
 
-Si tienes soporte personal o preguntas de configuración, el mejor lugar para hacerlas es [StackOverflow](http://stackoverflow.com/questions/tagged/reveal.js).
+Si usted requiere de soporte personalizado o o tiene preguntas de configuración, el mejor lugar para hacerlas es [StackOverflow](http://stackoverflow.com/questions/tagged/reveal.js).
 
 ## Informes de errores
 
@@ -15,7 +15,7 @@ Al informar de un fallo, asegúrese de incluir información sobre el navegador y
 - Debe seguir el estilo de codificación del archivo en el que trabaja, lo más importante:
   - tabs para identar
   - Cadenas de una sola cita
-- Debe hacerse hacia la **rama dev**.
+- Debe hacerse hacia la **rama master**.
 - Debe ser enviado desde una rama de la característica/tema (no desde su master)
 
 ## Plugins

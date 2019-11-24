@@ -1,3 +1,3 @@
 # slides.cuban.tech
 
-Version en español de CubanThech Slides
+English version of the slides of the CubanTech meetups
