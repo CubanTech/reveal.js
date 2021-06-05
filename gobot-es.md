@@ -1,46 +1,44 @@
+# Taller de gobots
 
-
-## Gobot Workshop
-
-#### These slides: [slides.cuban.tech/gobot.html](http://slides.cuban.tech/gobot.html)
+#### Estas diapositivas: [slides.cuban.tech/gobot.html](http://slides.cuban.tech/gobot.html)
 
 ----------------
 
-### Wifi Info
+### Información Wifi
 
-Network: cubantech
+Red: cubantech
 
-Password: meet-ups
+Contraseña: meet-ups
 
 ----------------
 
-### If you haven't already, install Go
+### Si aún no lo has hecho, instala Go
 
-##### [Download Go](https://golang.com/)
+- [Descargar Go](https://golang.com/)
 
-##### [Download Go from LAN](ftp://qnap01.local/Public/soft/go)
+- [Descargar Go desde LAN](ftp://qnap01.local/Public/soft/go)
 
-## Our community guidelines
+## Nuestras pautas de la comunidad
 
-[Be excellent to each other](https://github.com/nodeschool/havana/blob/master/Code_of_Conduct.md)
+[Ser excelente el uno con el otro](https://github.com/nodeschool/havana/blob/master/Code_of_Conduct.md)
 
 ---
 
-Upcoming CubanTech Events
+Próximos Eventos CubanTech
 
 - [CubanTech meetups](http://meetup.cuban.tech)
-- [Docker Cuba meetups](http://docker.cuban.tech)
+- [Encuentros en Cuba](http://docker.cuban.tech)
 - [Blockstack Cuba meetups](http://blockstack.cuban.tech)
 - [SciPyLA 2018](http://scipyla.org/conf/2018)
-  * ##### Universidad de Sancti Spiritus, November 22nd - 25th 2017
+  * Universidad de Sancti Spiritus, 22-25 de noviembre de 2017.
 
 ---
 
-# Huge thanks to our host
+# Enorme gracias a nuestro anfitrión
 
 ---
 
-## What are Gobots?
+## ¿Qué son los gobots?
 
 ![](img/gobot.png)
 
@@ -50,61 +48,61 @@ Upcoming CubanTech Events
 
 ---
 
-# Let's get started!
+# ¡Comencemos!
 
 ---
 
-## Our hardware
+## Nuestro hardware
 
 [![](img/hardware-kit-closed.jpg)](http://www.seeedstudio.com/depot/ARDX-The-starter-kit-for-Arduino-p-1153.html)
 
 ---
 
-## Our hardware
+## Nuestro hardware
 
 [![](img/hardware-kit-open.jpg)](http://www.seeedstudio.com/depot/ARDX-The-starter-kit-for-Arduino-p-1153.html)
 
 ---
 
-## Kits may be missing equipment
+## A los kits les puede faltar equipo
 
 ------------
 
-If you have trouble finding a component, let us know and we'll get you a replacement
+Si tiene problemas para encontrar un componente, háganoslo saber y le conseguiremos un reemplazo.
 
 ---
 
-## Not working?
+## ¿No funciona?
 
-## Probably hardware!
+## ¡Probablemente hardware!
 
 ---
 
-## Components We're Covering
+## Componentes que estamos cubriendo
 
-- LEDs (Light Emitting Diodes)
-- Buttons
+- LEDs (diodos emisores de luz)
+- Botones
 - Servos
 
 ---
 
-Feel free to select the components you like most and complete the challenges that most interest you
+Siéntase libre de seleccionar los componentes que más le gusten y completar los retos que más le interesen.
 
 ---
 
-# Getting started
+# Empezando
 
 --
 
-## Install Go if you haven't already
+## Instalar Go si aún no lo has hecho
 
-[Download Go from the Internet](https://golang.org/)
+[Descargar Go de Internet](https://golang.org/)
 
-[Download Go from LAN](ftp://qnap01.local/Public/soft/go)
+[Descargar Go de LAN](ftp://qnap01.local/Public/soft/go)
 
 --
 
-## Make project directory
+## Crear directorio de proyectos
 
 ```sh
 mkdir gobots
@@ -113,35 +111,35 @@ cd gobots
 
 --
 
-## Install Gobot
+## Instalar Gobot
 
 ```sh
-go get -d -u gobot.io/x/gobot/...
+go get -d -u gobot.io/x/gobot/....
 ```
 
 ---
 
-# Getting started
+# Empezando
 
-## Standard Firmata
+## Firmata estándar
 
-- Allows Gobot to communicate with the Arduino over USB
-- Most of the Arduinos already have Standard Firmata installed from previous workshops
-- Let's check to make sure your Arduino already has Standard Firmata installed!
+- Permite a Gobot comunicarse con el Arduino a través de USB
+- La mayoría de los Arduinos ya tienen instalados los Firmatas Estándar de talleres anteriores
+- Vamos a comprobar que tu Arduino ya tiene instalado el Firmata Estándar!
 
 ---
 
-## Connect the arduino
+## Conecta el arduino
 
 ![](img/connecting-arduino.jpg)
 
 ---
 
-Create the file
+Crear el fichero
 
-1. Go to your gobots directory
-2. Create a file called test.go
-3. Copy the code below to it and save
+1. Ve a tu directorio de gobots
+2. Cree un archivo llamado test.go
+3. Copie el código que aparece a continuación y guarde
 
 ```go
 package main
@@ -181,7 +179,7 @@ func main() {
 
 ---
 
-Run the code
+Ejecute el código
 
 ```sh
 go run test.go
@@ -189,66 +187,66 @@ go run test.go
 
 ---
 
-## This LED should be blinking every 1 second
+## Este LED debería estar parpadeando cada 1 segundo
 
 ![](img/built-in-led.png)
 
 ---
 
-If it works, continue on! &rarr;
+Si funciona, ¡continúe! &rarr;
 
 ------------
 
-If not, press &darr; for instructions on flashing your Arduino with Standard Firmata
+Si no es así, pulsa &darr; para obtener instrucciones sobre cómo flashear tu Arduino con Firmata Estándar
 
 --
 
 
-## How to flash your Arduino with Standard Firmata (Plus)
+## Cómo flashear tu Arduino con Firmata estándar (Plus)
 
-1. Download the [Arduino IDE](https://www.arduino.cc/en/main/software)
-2. Make sure your Arduino is connected via USB
-3. Open the Arduino IDE
-4. Select: `File > Examples > Firmata > StandardFirmataPlus`
-5. Select: `Tools > Board > Arduino/Genuino Uno`
-6. Select: `Tools > Port > <your Arduino>`
-7. Click the Upload Button ![](img/arduino-ide-upload-button.png)
-8. Retry making that LED blink
+1. Descargue el[Arduino IDE](https://www.arduino.cc/en/main/software)
+2. Asegúrate de que tu Arduino está conectado vía USB
+3. Abra el IDE de Arduino
+4. Seleccione: `Arhivo > Ejemplos > Firmata > StandardFirmataPlus`
+5. Seleccione: `Herramientas > Placa > Arduino/Genuino Uno`
+6. Seleccione: `Herramientas > Puerto > <tu Arduino>`
+7. Haga clic en el botón Upload ![](img/arduino-ide-upload-button.png)
+8. Vuelva a intentar hacer que el LED parpadee
 
 ---
 
-## Components We're Covering
+## Componentes que estamos cubriendo
 
-- <span style="color:yellow"> LEDs (Light Emitting Diodes) </span>
-- Buttons
+- <span style="color:yellow">LEDs (diodos emisores de luz)</span>
+- Botones
 - Servos
 
 ---
 
 ## LEDs
 
-<span class="red-led">LIGHT</span> <span class="green-led">EMITTING</span> <span class="blue-led">DIODES</span>
+#### <span class="redled">LIGHT</span> <span class="green-led">EMITTING</span> <span class="blue-led">DIODES</span>
 
 ![](img/leds.jpg)
 
 ---
 
-## Identifying LED Pins
+## Pines LED de identificación
 
-- Long pin is positive (and goes to power)
-- Short pin is negative (and goes to ground)
+- La clavija larga es positiva (y se pone en marcha)
+- El pin corto es negativo (y va a tierra)
 
 ![](img/led-pin-diagram.png)
 
 ---
 
-## Build This
+## Construya esto
 
 ![](img/arduino-led.png)
 
 ---
 
-Save this to a file and run it
+Guarde esto en un archivo y ejecútelo
 
 ```go
 package main
@@ -289,17 +287,17 @@ func main() {
 
 ---
 
-## If successful, you should see this
+## Si tiene éxito, deberías ver esto
 
 ![](img/blinking-led.gif)
 
 ---
 
-## Changing the Blink Rate
+## Cambio de la frecuencia de parpadeo
 
-- You probably noticed the light blinks about every .5 seconds
-- Change the code to blink at a different rate and then rerun it to make sure it works
-- If you're stuck, press &darr; to see a potential solution
+- Probablemente notó que la luz parpadea cada 0,5 segundos.
+- Cambie el código para que parpadee a una velocidad diferente y luego vuelva a ejecutarlo para asegurarse de que funciona.
+- Si está atascado, presione &darr; para ver una solución potencial
 
 --
 
@@ -343,67 +341,67 @@ func main() {
 
 ---
 
-## Breadboards: Solderless wiring
+## Paneles: Cableado sin soldadura
 
-#### Breadboards allow us to quickly wire components together for prototyping
+#### Los paneles nos permiten conectar rápidamente los componentes para hacer prototipos
 
 ![](img/breadboard.small.png)
 
 ---
 
-## Breadboards: Electrical Connections
+## Paneles: Conexiones eléctricas
 
-- #### Here you can see how the different rows and columns are connected.
-- #### If unclear, don't hesitate to do some Googling or ask a volunteer to explain them further.
+- Aquí puedes ver cómo se conectan las diferentes filas y columnas.
+- Si no está claro, no dudes en buscar en Google o pedirle a un voluntario que te lo explique.
 
 ![](img/breadboard-diagram.small.jpg)
 
-## Use your breadboard and a couple of wires (color doesn't matter) to build this
+## Usa tu protoboard y un par de cables (el color no importa) para construir esto
 
 ![](img/arduino-led-breadboard.png)
 
 ---
 
-Now run one of your programs from before and make sure the LED still blinks
+Ahora ejecute uno de sus programas anteriores y asegúrese de que el LED siga parpadeando
 
 ---
 
 
-## LED Challenges
+## Desafíos del LED
 
-Now that you've got the basics of LEDs, you can either move on to the next component, or work on some LED challenges
+Ahora que tiene los fundamentos de los LEDs, puede pasar al siguiente componente o trabajar en algunos desafíos de los LEDs.
 
-- Press &rarr; to move on to the next component
-- Press &darr; to scroll through the LED challenges
-
---
-
-## LED Challenges
-
-*Try to solve them yourself before looking at the solution!*
-
-Press &darr; to scroll through the following challenges (and potential solutions)
-
-1. Multiple Lights
-2. Binary Counter
+- Pulse &rarr; para pasar al siguiente componente
+- Pulse &darr; para desplazarse por los desafíos de los LEDs
 
 --
 
-### 1. Multiple Lights
+## Desafíos del LED
 
-Have 2 (or more) lights alternate blinking
+*¡Intenta resolverlos tú mismo antes de mirar la solución!*
+
+Pulse &darr; para desplazarse por los siguientes retos (y posibles soluciones)
+
+1. Múltiples luces
+2. Contador binario
+
+--
+
+### 1. Múltiples luces
+
+Haga que 2 (o más) luces se alternen parpadeando
 
 ![](img/alternate-blinking.gif)
 
 --
 
-### Potential Multiple Lights Solution - Hardware
+### Solución Potencial de Múltiples Luces - Hardware
 
 ![](img/alternate-blinking-hardware.png)
 
 --
 
-### Potential Multiple Lights Solution - Code
+### Solución Potencial de Múltiples Luces - Código
 
 ```go
 package main
@@ -454,7 +452,7 @@ func main() {
 
 --
 
-### Potential Binary Counter Solution (isaacvr) - Code
+### Solución de contador binario potencial (isaacvr) - Código
 
 ```go
 package main
@@ -519,7 +517,7 @@ func main() {
 
 --
 
-### Alternate Binary Counter Solution (olemis) - Code
+### Solución binaria alternativa para el contador (olemis) - Código
 
 ```go
 
@@ -576,7 +574,7 @@ func main() {
 
 ---
 
-## Buttons
+## Botones
 
 ![](img/buttons.jpg)
 
@@ -588,7 +586,8 @@ func main() {
 
 ---
 
-## Save this to a file and run it
+## Guarda esto en un archivo y ejecútalo
+
 
 ```go
 package main
@@ -632,63 +631,62 @@ func main() {
 ```
 
 `go run button.go`
-
 ---
 
-Try pressing, releasing, and holding the button
+Intente presionar, soltar y mantener presionado el botón
 
-You should see some output like this in the console
+Deberías ver alguna salida como esta en la consola
 
 ```
 
->> Button Pressed!
-Button Released!
-Button Pressed!
-Button Released!
-Button Pressed!
-Button Released!
+>> Botón pulsado!
+Botón liberado!
+Botón pulsado!
+Botón liberado!
+Botón pulsado!
+Botón liberado!
 ```
 
 ---
 
-The LED should go on when you press and off when you release.
+El LED debe encenderse al presionar y apagarse al soltarlo.
 
 ---
 
-## Button Challenges
+## Desafíos de los botones
 
-Now that you've got the basics of buttons, you can either move on to the next component, or work on some button challenges
+Ahora que tiene los conceptos básicos de los botones, puede pasar al siguiente componente o trabajar en algunos desafíos de botones.
 
-- Press &rarr; to move on to the next component
-- Press &darr; to scroll through the button challenges
-
---
-
-## Button Challenges
-
-*Try to solve them yourself before looking at the solution!*
-
-Press &darr; to scroll through the following challenges (and potential solutions)
-
-1. Light Switch
-2. Holiday Lights
-3. Passcode
+- Pulse &rarr; para pasar al siguiente componente
+- Presione &darr; para desplazarse por los desafíos del botón
 
 --
 
-### 1. Light Switch
+## Desafíos de los botones
 
-Have pressing a button alternate turning an LED on and off
+*¡Intenta resolverlos tú mismo antes de mirar la solución!*
+
+Pulse &darr; para desplazarse por los siguientes retos (y posibles soluciones)
+
+1. Interruptor de luz
+2. Luces navideñas
+3. Clave de acceso
 
 --
 
-### Potential Light Switch Solution - Hardware
+### 1. Interruptor de luz
+
+Haga que al presionar un botón alternativamente encienda y apague un LED
+
+--
+
+### Solución de interruptor de luz potencial - Hardware
 
 ![](img/light-switch-hardware.png)
 
 --
 
-### Potential Light Switch Solution - Code
+### Solución de interruptor de luz potencial - Código
 
 ```go
 package main
@@ -735,10 +733,10 @@ func main() {
 
 --
 
-## Components We're Covering
+## Componentes que estamos cubriendo
 
-- LEDs (Light Emitting Diodes)
-- Buttons
+- LEDs (diodos emisores de luz)
+- Botones
 - <span style="color: yellow"> Servos </span>
 
 ---
@@ -749,13 +747,13 @@ func main() {
 
 ---
 
-Take your servo and add one of the attachments to it
+Toma tu servo y añádele uno de los adjuntos.
 
 ![](img/servo.jpg)
 
 ---
 
-## Build This
+## Construya esto
 
 ![](img/servo-hardware.png)
 
@@ -763,40 +761,40 @@ Take your servo and add one of the attachments to it
 
 ## Servo Challenges
 
-Now you can either move on to the next component, or work on some servo challenges
+Ahora puedes pasar al siguiente componente, o trabajar en algunos desafíos de servo
 
-Press &rarr; to move on to the next component
-Press &darr; to scroll through the servo challenges
+Pulse &rarr; para pasar al siguiente componente
+Pulse &darr; para desplazarse por los desafíos de los servos
 
 --
 
 ## Servo Challenges
 
-*Try to solve them yourself before looking at the solution!*
+*¡Intenta resolverlos tú mismo antes de mirar la solución!*
 
-Press &darr; to scroll through the following challenges (and potential solutions)
+Pulse &darr; para desplazarse por los siguientes retos (y posibles soluciones)
 
-1. Sprinkler
-2. Arrows
-3. Button
+1. Apersor
+2. Flechas
+3. Botón
 
 --
 
-### 1. Sprinkler
+### 1. Rociador
 
-Make the servo rotate back and forth like a sprinkler
+Haz que el servo gire de un lado a otro como si fuera un aspersor.
 
 ![](img/sprinkler.gif)
 
 --
 
-### Potential Sprinkler Solution - Hardware
+### Solución potencial de aspersor - Hardware
 
 ![](img/sprinkler-hardware.png)
 
 --
 
-### Potential Sprinkler Solution - Code
+### Solución potencial de aspersor - Código
 
 ```go
 package main
@@ -843,21 +841,21 @@ func main() {
 
 --
 
-### 2. Arrows
+### 2. Flechas
 
-Make pressing the left arrow button rotate the servo one way and pressing the right arrow button rotate the other way
+Haz que al presionar el botón de flecha izquierda gire el servo en una dirección y al presionar el botón de flecha derecha gire en la otra dirección.
 
 ![](img/servo-arrows.gif)
 
 --
 
-### Potential Arrows Solution - Hardware
+### Solución de Flechas Potenciales - Hardware
 
 ![](img/servo-arrows-hardware.png)
 
 --
 
-### Potential Arrows Solution - Code
+### Solución de flechas potenciales - Código
 
 ```go
 package main
@@ -922,10 +920,10 @@ func main() {
 
 --
 
-Uh oh! We ran out of slides! Feel free to try out some of the other components in your kit while we add more!
+Uh oh oh! Nos acabamos las diapositivas! Siéntase libre de probar algunos de los otros componentes de su kit mientras nosotros añadimos más!
 
 ---
 
-## Wrapping Up
+## Winding Up
 
-- Thank you for coming!
+- Gracias por venir!
