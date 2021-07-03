@@ -1,5 +1,7 @@
 .idea/
 *.iml
+*.orig
+*.bak
 *.iws
 *.eml
 out/
