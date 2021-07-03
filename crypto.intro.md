@@ -72,15 +72,15 @@ Password: meet-ups
 
 - Gimme them crypto ! Do I need a bank account?
 - How do I actually use crypto?
-- Do I always need a wallet ? What's the best one ?
-- Can anybody confiscate my crypto ?
-- Who can see how many crypto coins I have ?
 
 ---
 
 ## Outline - Coming soon
 
 - Q&A
+  * Do I always need a wallet ? What's the best one ?
+  * Can anybody confiscate my crypto ?
+  * Who can see how many crypto coins I have ?
   * Financial freedom vs Bitcoin vs Government
   * All crytpocurrencies are fraud 'cause invented by Ponzi
   * Hey Mom! John Doe offered me crypto. Is he a criminal?
