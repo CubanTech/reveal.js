@@ -61,16 +61,29 @@ Password: meet-ups
 
 --
 
+## Outline - Day 4
+
+- I'll use cryptocurrencies once I understand what they doing ...
+- How's Bitcoin price determined? How does Google do it?
+
+--
+
+## Outline - Day 5
+
+- Gimme them crypto ! Do I need a bank account?
+- How do I actually use crypto?
+- Do I always need a wallet ? What's the best one ?
+- Can anybody confiscate my crypto ?
+- Who can see how many crypto coins I have ?
+
+---
+
 ## Outline - Coming soon
 
 - Q&A
-  * I'll use cryptocurrencies once I understand what they doing ...
   * Financial freedom vs Bitcoin vs Government
   * All crytpocurrencies are fraud 'cause invented by Ponzi
   * Hey Mom! John Doe offered me crypto. Is he a criminal?
-  * Gimme them crypto ! Do I need a bank account?
-  * How do I actually use crypto?
-  * Do I always need a wallet ? What's the best one ?
   * How can I make money by mining crypto?
 
 --
@@ -91,8 +104,6 @@ Password: meet-ups
 ## Outline - Coming soon
 
 - Q&A
-  * Who can see how many crypto coins I have ?
-  * Can anybody confiscate my crypto ?
   * How to implement crypto in Cuba for country-level money transfer?
     + ... circumvecting the embargo ...?
   * ... what if I buy a quantum computer? ... hein !
@@ -772,6 +783,220 @@ Netherlands, the rules applicable to a specific ICO depend on whether the token 
 
 ---
 
+## Q: Gimme them crypto ! Do I need a bank account?
+
+---
+
+## Inform yourself
+
+- Understand what it is
+- Determine if you actually need it
+- Learn to use it securely
+  * Avoid common pitfalls
+- What is a wallet? Why do I need it?
+
+---
+
+## Full-Service wallet
+
+- CRITICAL: Receive and spend coins (e.g. satoshi)
+  * Not necessarily both of them
+  * Generate privete / public key pairs
+  * Distribute public keys
+  * Sign transactions
+- Scan blockchain to determine "account" balance
+- Interact with the P2P network
+  * Read blockchain incrementally
+  * Broadcast transactions for confirmation
+
+---
+
+## Offline and Watch-Only Wallet
+
+- **Watch-only wallet**
+  * Connects to P2P network
+- **Offline**
+  * Do the rest ...
+
+---
+
+## Operating modes
+
+- Full node
+  * Download the whole blockchain and verify
+  * Fooling becomes expensive after 6 confirmations
+  * Only a single honest P2P node needed
+- SPV client
+  * Initial sync headers only, delay transactions
+  * Scalability 4.2 MB per year
+- API layer over blockchain
+
+---
+
+## Signing-Only Wallets
+
+- Increase security
+- Private keys stored in a more secure environment
+- Separate networked wallet for P2P
+
+---
+
+## Hardware wallets
+
+- Dedicated plug-and-play device
+- Hardened firmware and hardware
+- True random number generator
+- Standardized tes suites
+  * e.g. NIST
+- Immune to viruses
+
+--
+
+## Skywallet
+
+![](img/skywallet.overview.png)
+
+--
+
+## Skywallet #MadeInCuba
+
+![](img/skywallet.dev.view.png)
+
+---
+
+## Distributing-Only Wallets
+
+- Run in difficult-to-secure environments, such as webservers
+- Designed to distribute public keys and nothing more.
+- Two implementations
+  * Pre-populated database (public keys or addresses)
+  * Pubkey generator
+
+---
+
+## Deterministic key creation
+
+- [BIP-32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki) HD protocol
+- No repeated communication between multiple programs
+- Child accounts
+- Simplify wallet backups
+
+---
+
+## Multi-currency HD derivations
+
+![](img/bip44.tree.png)
+
+---
+
+## Root seed entropy
+
+| Entropy Bits | Words |
+|--------------|-------|
+| 128          | 12    |
+| 160          | 15    |
+| 192          | 18    |
+| 224          | 21    |
+| 256          | 24    |
+
+---
+
+## Hardware wallet security
+
+- **PIN** protects device from being used
+- **Passphrase** prevents seed/wallet from being used
+  * Impervious to physical attack
+  * Protects Bitcoins if recovery seed (mnemonic) stolen
+  * Hidden wallets
+    + Gun point $5 wrench attack
+
+---
+
+## Q: Do I always need a wallet ? What's the best one ?
+
+---
+
+# YES!
+
+---
+
+## Full desktop wallets
+
+- [Bitcoin Core](https://bitcoin.org/en/bitcoin-core/)
+- [Multibit](https://multibit.org/)
+- [Armory](https://www.bitcoinarmory.com/)
+- [Hive OS X](https://hiveos.farm/install/)
+- [Electrum](https://electrum.org/)
+- [Edge](https://edge.app)
+- [Exodus](https://www.exodus.com)
+
+---
+
+## Mobile wallets
+
+- Improved UX
+- Facilitate payments in physical stores
+  * NFC
+  * Touch-to-pay
+  * QR code scanning
+- Prone to malware
+
+---
+
+## Web wallet
+
+- Zero-conf ubiquitous access to Bitcoins
+- Built on HTTP(S) client server architecture
+- By default stores your private keys in the server.
+  * SECURITY RISK
+- Examples
+  * [Coinbase](https://wallet.coinbase.com)
+  * [Blockchain](https://www.blockchain.com/wallet)
+
+---
+
+## [Trezor](https://wallet.trezor.io/)
+
+![](img/trezor.pin.png)
+
+---
+
+## Q: Can anybody confiscate my crypto ?
+
+---
+
+## DoJ vs DarkSide
+
+- Ransomware extortion of DarkSide targets Colonial Pipeline
+  * Totalling `75` BTC
+  * [Gasoline shortages along the East Coast](https://www.fastcompany.com/90635931/will-your-town-be-hit-with-a-gas-shortage-concern-abounds-after-colonial-pipeline-debacle)
+- [DoJ seized 63.7 BTC](https://www.justice.gov/opa/pr/department-justice-seizes-23-million-cryptocurrency-paid-ransomware-extortionists-darkside)
+  * ... about `$2,300,000` USD
+- How?
+
+---
+
+## Official version of facts
+###### ... based on [affidavit](https://www.justice.gov/opa/press-release/file/1402056/download)
+
+- FBI reviewed the Bitcoin public ledger
+  * ... hence the `63.7` BTC amount
+- Sequence of Bitcoin transactions
+- FBI follows the money ...
+- ... until it reaches a said Subject Address
+- FBI claims they had the private key
+
+---
+
+## Probable methods
+
+- Only speculations
+- FBI penetrated DarkSide infra
+- DarkSide used a service that owned the private key
+- Never imagine ECDSA was broken
+
+---
+
 ## Q: Who can see how many crypto coins I have?
 
 ---
@@ -789,8 +1014,6 @@ Netherlands, the rules applicable to a specific ICO depend on whether the token 
 
 ![](img/bitcoin.tx.c60e4dc5e69c19ff53a45954d8a8996fd9aac6fda317fd7238dec6a482c718cf.png)
 
-
-
 ---
 
 ## Q: Financial freedom vs Bitcoin vs Government
@@ -805,15 +1028,7 @@ Netherlands, the rules applicable to a specific ICO depend on whether the token 
 
 ---
 
-## Q: Gimme them crypto ! Do I need a bank account?
-
----
-
 ## Q: How do I actually use crypto?
-
----
-
-## Q: Do I always need a wallet ? What's the best one ?
 
 ---
 
@@ -959,10 +1174,6 @@ Application specific integrated circuits, a.k.a. ASICs
 ![](img/bitcoin.pow.energy.png)
 
 - Projected to be comparable to Denmark's in 2020 
-
----
-
-## Q: Can anybody confiscate my crypto ?
 
 ---
 
